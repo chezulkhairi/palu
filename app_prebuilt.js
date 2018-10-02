@@ -214,34 +214,34 @@ var categories_accessibilitytocitiespalu7 = {"0": [ new ol.style.Style({
                         return allStyles;
                     };
 var categories_donggala_grading_copernicusrapidmapping = {"Damaged": [ new ol.style.Style({
-                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255,245,240,1.0)"})})
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255,245,240,1.0)"}), angle: 0})
                         })
                         ],
 "Destroyed": [ new ol.style.Style({
-                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(252,164,135,1.0)"})})
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(252,164,135,1.0)"}), angle: 0})
                         })
                         ],
 "Possibly damaged": [ new ol.style.Style({
-                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(235,54,42,1.0)"})})
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(235,54,42,1.0)"}), angle: 0})
                         })
                         ],
 "": [ new ol.style.Style({
-                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(103,0,13,1.0)"})})
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(103,0,13,1.0)"}), angle: 0})
                         })
                         ]};var categoriesSelected_donggala_grading_copernicusrapidmapping = {"Damaged": [ new ol.style.Style({
-                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})})
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"}), angle: 0})
                         })
                         ],
 "Destroyed": [ new ol.style.Style({
-                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})})
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"}), angle: 0})
                         })
                         ],
 "Possibly damaged": [ new ol.style.Style({
-                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})})
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"}), angle: 0})
                         })
                         ],
 "": [ new ol.style.Style({
-                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})})
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"}), angle: 0})
                         })
                         ]};
                     var textStyleCache_donggala_grading_copernicusrapidmapping={}
@@ -264,92 +264,43 @@ var categories_donggala_grading_copernicusrapidmapping = {"Damaged": [ new ol.st
                         allStyles.push.apply(allStyles, style);
                         return allStyles;
                     };
-var categories_emsr317_6paluwest_2grading_map_v1_vectoremsr317_6paluwest_gra_v1_natural_land_use_a = {"2-Agricultural Areas": [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}),
-                        fill: new ol.style.Fill({color: "rgba(247,252,245,1.0)"})
-                        })
-                        ],
-"3-Forests and Semi-natural Areas": [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}),
-                        fill: new ol.style.Fill({color: "rgba(123,200,124,1.0)"})
-                        })
-                        ],
-"": [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}),
-                        fill: new ol.style.Fill({color: "rgba(0,68,27,1.0)"})
-                        })
-                        ]};var categoriesSelected_emsr317_6paluwest_2grading_map_v1_vectoremsr317_6paluwest_gra_v1_natural_land_use_a = {"2-Agricultural Areas": [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}),
-                        fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})
-                        })
-                        ],
-"3-Forests and Semi-natural Areas": [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}),
-                        fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})
-                        })
-                        ],
-"": [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}),
-                        fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})
-                        })
-                        ]};
-                    var textStyleCache_emsr317_6paluwest_2grading_map_v1_vectoremsr317_6paluwest_gra_v1_natural_land_use_a={}
-                    var clusterStyleCache_emsr317_6paluwest_2grading_map_v1_vectoremsr317_6paluwest_gra_v1_natural_land_use_a={}
-                    var style_emsr317_6paluwest_2grading_map_v1_vectoremsr317_6paluwest_gra_v1_natural_land_use_a = function(feature, resolution){
-                        
-                        var value = feature.get("obj_type");
-                        var style = categories_emsr317_6paluwest_2grading_map_v1_vectoremsr317_6paluwest_gra_v1_natural_land_use_a[value];
-                        var allStyles = [];
-                        
-                        allStyles.push.apply(allStyles, style);
-                        return allStyles;
-                    };
-                    var selectionStyle_emsr317_6paluwest_2grading_map_v1_vectoremsr317_6paluwest_gra_v1_natural_land_use_a = function(feature, resolution){
-                        
-                        var value = feature.get("obj_type");
-                        var style = categoriesSelected_emsr317_6paluwest_2grading_map_v1_vectoremsr317_6paluwest_gra_v1_natural_land_use_a[value]
-                        var allStyles = [];
-                        
-                        allStyles.push.apply(allStyles, style);
-                        return allStyles;
-                    };
 var categories_paluwest_grading_copernicusrapidmapping = {"Damaged": [ new ol.style.Style({
-                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255,245,240,1.0)"})})
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255,245,240,1.0)"}), angle: 0})
                         })
                         ],
 "Destroyed": [ new ol.style.Style({
-                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(253,190,165,1.0)"})})
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(253,190,165,1.0)"}), angle: 0})
                         })
                         ],
 "None": [ new ol.style.Style({
-                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(252,112,80,1.0)"})})
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(252,112,80,1.0)"}), angle: 0})
                         })
                         ],
 "Possibly damaged": [ new ol.style.Style({
-                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(212,32,32,1.0)"})})
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(212,32,32,1.0)"}), angle: 0})
                         })
                         ],
 "": [ new ol.style.Style({
-                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(103,0,13,1.0)"})})
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(103,0,13,1.0)"}), angle: 0})
                         })
                         ]};var categoriesSelected_paluwest_grading_copernicusrapidmapping = {"Damaged": [ new ol.style.Style({
-                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})})
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"}), angle: 0})
                         })
                         ],
 "Destroyed": [ new ol.style.Style({
-                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})})
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"}), angle: 0})
                         })
                         ],
 "None": [ new ol.style.Style({
-                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})})
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"}), angle: 0})
                         })
                         ],
 "Possibly damaged": [ new ol.style.Style({
-                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})})
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"}), angle: 0})
                         })
                         ],
 "": [ new ol.style.Style({
-                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})})
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"}), angle: 0})
                         })
                         ]};
                     var textStyleCache_paluwest_grading_copernicusrapidmapping={}
@@ -372,94 +323,35 @@ var categories_paluwest_grading_copernicusrapidmapping = {"Damaged": [ new ol.st
                         allStyles.push.apply(allStyles, style);
                         return allStyles;
                     };
-var categories_emsr317_8palueast_2grading_map_v1_vectoremsr317_8palueast_gra_v1_natural_land_use_a = {"2-Agricultural Areas": [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}),
-                        fill: new ol.style.Fill({color: "rgba(247,252,245,1.0)"})
-                        })
-                        ],
-"3-Forests and Semi-natural Areas": [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}),
-                        fill: new ol.style.Fill({color: "rgba(178,224,171,1.0)"})
-                        })
-                        ],
-"998-Other": [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}),
-                        fill: new ol.style.Fill({color: "rgba(61,167,90,1.0)"})
-                        })
-                        ],
-"": [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}),
-                        fill: new ol.style.Fill({color: "rgba(0,68,27,1.0)"})
-                        })
-                        ]};var categoriesSelected_emsr317_8palueast_2grading_map_v1_vectoremsr317_8palueast_gra_v1_natural_land_use_a = {"2-Agricultural Areas": [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}),
-                        fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})
-                        })
-                        ],
-"3-Forests and Semi-natural Areas": [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}),
-                        fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})
-                        })
-                        ],
-"998-Other": [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}),
-                        fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})
-                        })
-                        ],
-"": [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}),
-                        fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})
-                        })
-                        ]};
-                    var textStyleCache_emsr317_8palueast_2grading_map_v1_vectoremsr317_8palueast_gra_v1_natural_land_use_a={}
-                    var clusterStyleCache_emsr317_8palueast_2grading_map_v1_vectoremsr317_8palueast_gra_v1_natural_land_use_a={}
-                    var style_emsr317_8palueast_2grading_map_v1_vectoremsr317_8palueast_gra_v1_natural_land_use_a = function(feature, resolution){
-                        
-                        var value = feature.get("obj_type");
-                        var style = categories_emsr317_8palueast_2grading_map_v1_vectoremsr317_8palueast_gra_v1_natural_land_use_a[value];
-                        var allStyles = [];
-                        
-                        allStyles.push.apply(allStyles, style);
-                        return allStyles;
-                    };
-                    var selectionStyle_emsr317_8palueast_2grading_map_v1_vectoremsr317_8palueast_gra_v1_natural_land_use_a = function(feature, resolution){
-                        
-                        var value = feature.get("obj_type");
-                        var style = categoriesSelected_emsr317_8palueast_2grading_map_v1_vectoremsr317_8palueast_gra_v1_natural_land_use_a[value]
-                        var allStyles = [];
-                        
-                        allStyles.push.apply(allStyles, style);
-                        return allStyles;
-                    };
 var categories_palueast_grading_copernicusrapidmapping = {"Damaged": [ new ol.style.Style({
-                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255,245,240,1.0)"})})
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255,245,240,1.0)"}), angle: 0})
                         })
                         ],
 "Destroyed": [ new ol.style.Style({
-                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(252,164,135,1.0)"})})
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(252,164,135,1.0)"}), angle: 0})
                         })
                         ],
 "Possibly damaged": [ new ol.style.Style({
-                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(235,54,42,1.0)"})})
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(235,54,42,1.0)"}), angle: 0})
                         })
                         ],
 "": [ new ol.style.Style({
-                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(103,0,13,1.0)"})})
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(103,0,13,1.0)"}), angle: 0})
                         })
                         ]};var categoriesSelected_palueast_grading_copernicusrapidmapping = {"Damaged": [ new ol.style.Style({
-                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})})
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"}), angle: 0})
                         })
                         ],
 "Destroyed": [ new ol.style.Style({
-                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})})
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"}), angle: 0})
                         })
                         ],
 "Possibly damaged": [ new ol.style.Style({
-                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})})
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"}), angle: 0})
                         })
                         ],
 "": [ new ol.style.Style({
-                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})})
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"}), angle: 0})
                         })
                         ]};
                     var textStyleCache_palueast_grading_copernicusrapidmapping={}
@@ -482,74 +374,15 @@ var categories_palueast_grading_copernicusrapidmapping = {"Damaged": [ new ol.st
                         allStyles.push.apply(allStyles, style);
                         return allStyles;
                     };
-var categories_emsr317_7palu_2grading_map_v2_vectoremsr317_7palu_gra_v2_natural_land_use_a = {"2-Agricultural Areas": [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: [6], width: 0}),
-                        fill: new ol.style.Fill({color: "rgba(247,252,245,1.0)"})
-                        })
-                        ],
-"3-Forests and Semi-natural Areas": [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: [6], width: 0}),
-                        fill: new ol.style.Fill({color: "rgba(178,224,171,1.0)"})
-                        })
-                        ],
-"4-Wetlands": [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: [6], width: 0}),
-                        fill: new ol.style.Fill({color: "rgba(61,167,90,1.0)"})
-                        })
-                        ],
-"": [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: [6], width: 0}),
-                        fill: new ol.style.Fill({color: "rgba(0,68,27,1.0)"})
-                        })
-                        ]};var categoriesSelected_emsr317_7palu_2grading_map_v2_vectoremsr317_7palu_gra_v2_natural_land_use_a = {"2-Agricultural Areas": [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: [6], width: 0}),
-                        fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})
-                        })
-                        ],
-"3-Forests and Semi-natural Areas": [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: [6], width: 0}),
-                        fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})
-                        })
-                        ],
-"4-Wetlands": [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: [6], width: 0}),
-                        fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})
-                        })
-                        ],
-"": [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: [6], width: 0}),
-                        fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})
-                        })
-                        ]};
-                    var textStyleCache_emsr317_7palu_2grading_map_v2_vectoremsr317_7palu_gra_v2_natural_land_use_a={}
-                    var clusterStyleCache_emsr317_7palu_2grading_map_v2_vectoremsr317_7palu_gra_v2_natural_land_use_a={}
-                    var style_emsr317_7palu_2grading_map_v2_vectoremsr317_7palu_gra_v2_natural_land_use_a = function(feature, resolution){
-                        
-                        var value = feature.get("obj_type");
-                        var style = categories_emsr317_7palu_2grading_map_v2_vectoremsr317_7palu_gra_v2_natural_land_use_a[value];
-                        var allStyles = [];
-                        
-                        allStyles.push.apply(allStyles, style);
-                        return allStyles;
-                    };
-                    var selectionStyle_emsr317_7palu_2grading_map_v2_vectoremsr317_7palu_gra_v2_natural_land_use_a = function(feature, resolution){
-                        
-                        var value = feature.get("obj_type");
-                        var style = categoriesSelected_emsr317_7palu_2grading_map_v2_vectoremsr317_7palu_gra_v2_natural_land_use_a[value]
-                        var allStyles = [];
-                        
-                        allStyles.push.apply(allStyles, style);
-                        return allStyles;
-                    };
 
-                    var textStyleCache_polygons_6={}
-                    var clusterStyleCache_polygons_6={}
-                    var style_polygons_6 = function(feature, resolution){
+                    var textStyleCache_safeareafortemporaryresettlement={}
+                    var clusterStyleCache_safeareafortemporaryresettlement={}
+                    var style_safeareafortemporaryresettlement = function(feature, resolution){
                         
                         var value = "";
                         var style = [ new ol.style.Style({
                             stroke: new ol.style.Stroke({color: "rgba(0,0,0,0.0980392156863)", lineDash: null, width: 0}),
-                        fill: new ol.style.Fill({color: "rgba(183,187,100,0.0980392156863)"})
+                        fill: new ol.style.Fill({color: "rgba(61,189,110,0.0980392156863)"})
                         })
                         ];
                         var allStyles = [];
@@ -557,92 +390,7 @@ var categories_emsr317_7palu_2grading_map_v2_vectoremsr317_7palu_gra_v2_natural_
                         allStyles.push.apply(allStyles, style);
                         return allStyles;
                     };
-                    var selectionStyle_polygons_6 = function(feature, resolution){
-                        
-                        var value = "";
-                        var style = [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}),
-                        fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})
-                        })
-                        ]
-                        var allStyles = [];
-                        
-                        allStyles.push.apply(allStyles, style);
-                        return allStyles;
-                    };
-
-                    var textStyleCache_polygons_3polygons_3polygon={}
-                    var clusterStyleCache_polygons_3polygons_3polygon={}
-                    var style_polygons_3polygons_3polygon = function(feature, resolution){
-                        
-                        var value = "";
-                        var style = [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(0,0,0,0.0980392156863)", lineDash: null, width: 0}),
-                        fill: new ol.style.Fill({color: "rgba(189,159,126,0.0980392156863)"})
-                        })
-                        ];
-                        var allStyles = [];
-                        
-                        allStyles.push.apply(allStyles, style);
-                        return allStyles;
-                    };
-                    var selectionStyle_polygons_3polygons_3polygon = function(feature, resolution){
-                        
-                        var value = "";
-                        var style = [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}),
-                        fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})
-                        })
-                        ]
-                        var allStyles = [];
-                        
-                        allStyles.push.apply(allStyles, style);
-                        return allStyles;
-                    };
-
-                    var textStyleCache_polygons_3polygons_3linestring={}
-                    var clusterStyleCache_polygons_3polygons_3linestring={}
-                    var style_polygons_3polygons_3linestring = function(feature, resolution){
-                        
-                        var value = "";
-                        var style = [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(159,193,136,1.0)", lineDash: null, width: 0})
-                        })
-                        ];
-                        var allStyles = [];
-                        
-                        allStyles.push.apply(allStyles, style);
-                        return allStyles;
-                    };
-                    var selectionStyle_polygons_3polygons_3linestring = function(feature, resolution){
-                        
-                        var value = "";
-                        var style = [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0})
-                        })
-                        ]
-                        var allStyles = [];
-                        
-                        allStyles.push.apply(allStyles, style);
-                        return allStyles;
-                    };
-
-                    var textStyleCache_geojson_gdacsgeojson_gdacspolygon={}
-                    var clusterStyleCache_geojson_gdacsgeojson_gdacspolygon={}
-                    var style_geojson_gdacsgeojson_gdacspolygon = function(feature, resolution){
-                        
-                        var value = "";
-                        var style = [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(0,0,0,0.0980392156863)", lineDash: null, width: 0}),
-                        fill: new ol.style.Fill({color: "rgba(95,175,123,0.0980392156863)"})
-                        })
-                        ];
-                        var allStyles = [];
-                        
-                        allStyles.push.apply(allStyles, style);
-                        return allStyles;
-                    };
-                    var selectionStyle_geojson_gdacsgeojson_gdacspolygon = function(feature, resolution){
+                    var selectionStyle_safeareafortemporaryresettlement = function(feature, resolution){
                         
                         var value = "";
                         var style = [ new ol.style.Style({
@@ -683,100 +431,16 @@ var categories_emsr317_7palu_2grading_map_v2_vectoremsr317_7palu_gra_v2_natural_
                         return allStyles;
                     };
 
-                    var textStyleCache_contour_6meterintervalbathymetry={}
-                    var clusterStyleCache_contour_6meterintervalbathymetry={}
-                    var style_contour_6meterintervalbathymetry = function(feature, resolution){
-                        
-                        var value = "";
-                        var style = [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(0,0,0,0.0470588235294)", lineDash: null, width: 0}),
-                        fill: new ol.style.Fill({color: "rgba(189,159,126,0.0470588235294)"})
-                        })
-                        ];
-                        var allStyles = [];
-                        
-                        allStyles.push.apply(allStyles, style);
-                        return allStyles;
-                    };
-                    var selectionStyle_contour_6meterintervalbathymetry = function(feature, resolution){
-                        
-                        var value = "";
-                        var style = [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}),
-                        fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})
-                        })
-                        ]
-                        var allStyles = [];
-                        
-                        allStyles.push.apply(allStyles, style);
-                        return allStyles;
-                    };
-
-                    var textStyleCache_polygons_4={}
-                    var clusterStyleCache_polygons_4={}
-                    var style_polygons_4 = function(feature, resolution){
-                        
-                        var value = "";
-                        var style = [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(0,0,0,0.0980392156863)", lineDash: null, width: 0}),
-                        fill: new ol.style.Fill({color: "rgba(210,182,22,0.0980392156863)"})
-                        })
-                        ];
-                        var allStyles = [];
-                        
-                        allStyles.push.apply(allStyles, style);
-                        return allStyles;
-                    };
-                    var selectionStyle_polygons_4 = function(feature, resolution){
-                        
-                        var value = "";
-                        var style = [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}),
-                        fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})
-                        })
-                        ]
-                        var allStyles = [];
-                        
-                        allStyles.push.apply(allStyles, style);
-                        return allStyles;
-                    };
-
-                    var textStyleCache_polygons_5={}
-                    var clusterStyleCache_polygons_5={}
-                    var style_polygons_5 = function(feature, resolution){
-                        
-                        var value = "";
-                        var style = [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(0,0,0,0.0980392156863)", lineDash: null, width: 0}),
-                        fill: new ol.style.Fill({color: "rgba(210,182,22,0.0980392156863)"})
-                        })
-                        ];
-                        var allStyles = [];
-                        
-                        allStyles.push.apply(allStyles, style);
-                        return allStyles;
-                    };
-                    var selectionStyle_polygons_5 = function(feature, resolution){
-                        
-                        var value = "";
-                        var style = [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}),
-                        fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})
-                        })
-                        ]
-                        var allStyles = [];
-                        
-                        allStyles.push.apply(allStyles, style);
-                        return allStyles;
-                    };
-
                     var textStyleCache_firstresponder={}
                     var clusterStyleCache_firstresponder={}
                     var style_firstresponder = function(feature, resolution){
                         
                         var value = "";
                         var style = [ new ol.style.Style({
-                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(210,182,22,1.0)"})})
+                            image: new ol.style.Circle({radius: 4.56, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255,255,255,1.0)"})})
+                        })
+                        ,new ol.style.Style({
+                            image: new ol.style.Circle({radius: 0.95, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(0,0,0,1.0)"})})
                         })
                         ];
                         var allStyles = [];
@@ -788,7 +452,10 @@ var categories_emsr317_7palu_2grading_map_v2_vectoremsr317_7palu_gra_v2_natural_
                         
                         var value = "";
                         var style = [ new ol.style.Style({
-                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})})
+                            image: new ol.style.Circle({radius: 4.56, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})})
+                        })
+                        ,new ol.style.Style({
+                            image: new ol.style.Circle({radius: 0.95, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})})
                         })
                         ]
                         var allStyles = [];
@@ -797,34 +464,34 @@ var categories_emsr317_7palu_2grading_map_v2_vectoremsr317_7palu_gra_v2_natural_
                         return allStyles;
                     };
 var categories_palu_grading_copernicusrapidmapping = {"Damaged": [ new ol.style.Style({
-                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255,245,240,1.0)"})})
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255,245,240,1.0)"}), angle: 0})
                         })
                         ],
 "Destroyed": [ new ol.style.Style({
-                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(252,164,135,1.0)"})})
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(252,164,135,1.0)"}), angle: 0})
                         })
                         ],
 "Possibly damaged": [ new ol.style.Style({
-                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(235,54,42,1.0)"})})
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(235,54,42,1.0)"}), angle: 0})
                         })
                         ],
 "": [ new ol.style.Style({
-                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(103,0,13,1.0)"})})
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(103,0,13,1.0)"}), angle: 0})
                         })
                         ]};var categoriesSelected_palu_grading_copernicusrapidmapping = {"Damaged": [ new ol.style.Style({
-                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})})
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"}), angle: 0})
                         })
                         ],
 "Destroyed": [ new ol.style.Style({
-                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})})
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"}), angle: 0})
                         })
                         ],
 "Possibly damaged": [ new ol.style.Style({
-                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})})
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"}), angle: 0})
                         })
                         ],
 "": [ new ol.style.Style({
-                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})})
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"}), angle: 0})
                         })
                         ]};
                     var textStyleCache_palu_grading_copernicusrapidmapping={}
@@ -847,14 +514,218 @@ var categories_palu_grading_copernicusrapidmapping = {"Damaged": [ new ol.style.
                         allStyles.push.apply(allStyles, style);
                         return allStyles;
                     };
+var categories_emsr317_1lombonga_2grading_map_v1_vectoremsr317_1lombonga_gra_v1_built_up_p = {"Damaged": [ new ol.style.Style({
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255,245,240,1.0)"}), angle: 0})
+                        })
+                        ],
+"Destroyed": [ new ol.style.Style({
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(252,164,135,1.0)"}), angle: 0})
+                        })
+                        ],
+"Possibly damaged": [ new ol.style.Style({
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(235,54,42,1.0)"}), angle: 0})
+                        })
+                        ],
+"": [ new ol.style.Style({
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(103,0,13,1.0)"}), angle: 0})
+                        })
+                        ]};var categoriesSelected_emsr317_1lombonga_2grading_map_v1_vectoremsr317_1lombonga_gra_v1_built_up_p = {"Damaged": [ new ol.style.Style({
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"}), angle: 0})
+                        })
+                        ],
+"Destroyed": [ new ol.style.Style({
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"}), angle: 0})
+                        })
+                        ],
+"Possibly damaged": [ new ol.style.Style({
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"}), angle: 0})
+                        })
+                        ],
+"": [ new ol.style.Style({
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"}), angle: 0})
+                        })
+                        ]};
+                    var textStyleCache_emsr317_1lombonga_2grading_map_v1_vectoremsr317_1lombonga_gra_v1_built_up_p={}
+                    var clusterStyleCache_emsr317_1lombonga_2grading_map_v1_vectoremsr317_1lombonga_gra_v1_built_up_p={}
+                    var style_emsr317_1lombonga_2grading_map_v1_vectoremsr317_1lombonga_gra_v1_built_up_p = function(feature, resolution){
+                        
+                        var value = feature.get("damage_gra");
+                        var style = categories_emsr317_1lombonga_2grading_map_v1_vectoremsr317_1lombonga_gra_v1_built_up_p[value];
+                        var allStyles = [];
+                        
+                        allStyles.push.apply(allStyles, style);
+                        return allStyles;
+                    };
+                    var selectionStyle_emsr317_1lombonga_2grading_map_v1_vectoremsr317_1lombonga_gra_v1_built_up_p = function(feature, resolution){
+                        
+                        var value = feature.get("damage_gra");
+                        var style = categoriesSelected_emsr317_1lombonga_2grading_map_v1_vectoremsr317_1lombonga_gra_v1_built_up_p[value]
+                        var allStyles = [];
+                        
+                        allStyles.push.apply(allStyles, style);
+                        return allStyles;
+                    };
+var categories_emsr317_2lende_2grading_map_v1_vectoremsr317_2lende_gra_v1_built_up_p = {"Damaged": [ new ol.style.Style({
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255,245,240,1.0)"}), angle: 0})
+                        })
+                        ],
+"Destroyed": [ new ol.style.Style({
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(252,164,135,1.0)"}), angle: 0})
+                        })
+                        ],
+"Possibly damaged": [ new ol.style.Style({
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(235,54,42,1.0)"}), angle: 0})
+                        })
+                        ],
+"": [ new ol.style.Style({
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(103,0,13,1.0)"}), angle: 0})
+                        })
+                        ]};var categoriesSelected_emsr317_2lende_2grading_map_v1_vectoremsr317_2lende_gra_v1_built_up_p = {"Damaged": [ new ol.style.Style({
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"}), angle: 0})
+                        })
+                        ],
+"Destroyed": [ new ol.style.Style({
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"}), angle: 0})
+                        })
+                        ],
+"Possibly damaged": [ new ol.style.Style({
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"}), angle: 0})
+                        })
+                        ],
+"": [ new ol.style.Style({
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"}), angle: 0})
+                        })
+                        ]};
+                    var textStyleCache_emsr317_2lende_2grading_map_v1_vectoremsr317_2lende_gra_v1_built_up_p={}
+                    var clusterStyleCache_emsr317_2lende_2grading_map_v1_vectoremsr317_2lende_gra_v1_built_up_p={}
+                    var style_emsr317_2lende_2grading_map_v1_vectoremsr317_2lende_gra_v1_built_up_p = function(feature, resolution){
+                        
+                        var value = feature.get("damage_gra");
+                        var style = categories_emsr317_2lende_2grading_map_v1_vectoremsr317_2lende_gra_v1_built_up_p[value];
+                        var allStyles = [];
+                        
+                        allStyles.push.apply(allStyles, style);
+                        return allStyles;
+                    };
+                    var selectionStyle_emsr317_2lende_2grading_map_v1_vectoremsr317_2lende_gra_v1_built_up_p = function(feature, resolution){
+                        
+                        var value = feature.get("damage_gra");
+                        var style = categoriesSelected_emsr317_2lende_2grading_map_v1_vectoremsr317_2lende_gra_v1_built_up_p[value]
+                        var allStyles = [];
+                        
+                        allStyles.push.apply(allStyles, style);
+                        return allStyles;
+                    };
+var categories_emsr317_1pelabuhan_2grading_map_v1_vectoremsr317_1pelabuhan_gra_v1_built_up_p = {"Damaged": [ new ol.style.Style({
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255,245,240,1.0)"}), angle: 0})
+                        })
+                        ],
+"Destroyed": [ new ol.style.Style({
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(252,164,135,1.0)"}), angle: 0})
+                        })
+                        ],
+"Possibly damaged": [ new ol.style.Style({
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(235,54,42,1.0)"}), angle: 0})
+                        })
+                        ],
+"": [ new ol.style.Style({
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(103,0,13,1.0)"}), angle: 0})
+                        })
+                        ]};var categoriesSelected_emsr317_1pelabuhan_2grading_map_v1_vectoremsr317_1pelabuhan_gra_v1_built_up_p = {"Damaged": [ new ol.style.Style({
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"}), angle: 0})
+                        })
+                        ],
+"Destroyed": [ new ol.style.Style({
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"}), angle: 0})
+                        })
+                        ],
+"Possibly damaged": [ new ol.style.Style({
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"}), angle: 0})
+                        })
+                        ],
+"": [ new ol.style.Style({
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"}), angle: 0})
+                        })
+                        ]};
+                    var textStyleCache_emsr317_1pelabuhan_2grading_map_v1_vectoremsr317_1pelabuhan_gra_v1_built_up_p={}
+                    var clusterStyleCache_emsr317_1pelabuhan_2grading_map_v1_vectoremsr317_1pelabuhan_gra_v1_built_up_p={}
+                    var style_emsr317_1pelabuhan_2grading_map_v1_vectoremsr317_1pelabuhan_gra_v1_built_up_p = function(feature, resolution){
+                        
+                        var value = feature.get("damage_gra");
+                        var style = categories_emsr317_1pelabuhan_2grading_map_v1_vectoremsr317_1pelabuhan_gra_v1_built_up_p[value];
+                        var allStyles = [];
+                        
+                        allStyles.push.apply(allStyles, style);
+                        return allStyles;
+                    };
+                    var selectionStyle_emsr317_1pelabuhan_2grading_map_v1_vectoremsr317_1pelabuhan_gra_v1_built_up_p = function(feature, resolution){
+                        
+                        var value = feature.get("damage_gra");
+                        var style = categoriesSelected_emsr317_1pelabuhan_2grading_map_v1_vectoremsr317_1pelabuhan_gra_v1_built_up_p[value]
+                        var allStyles = [];
+                        
+                        allStyles.push.apply(allStyles, style);
+                        return allStyles;
+                    };
+var categories_emsr317_3tompe_2grading_map_v1_vectoremsr317_3tompe_gra_v1_built_up_p = {"Damaged": [ new ol.style.Style({
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255,245,240,1.0)"}), angle: 0})
+                        })
+                        ],
+"Destroyed": [ new ol.style.Style({
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(252,164,135,1.0)"}), angle: 0})
+                        })
+                        ],
+"Possibly damaged": [ new ol.style.Style({
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(235,54,42,1.0)"}), angle: 0})
+                        })
+                        ],
+"": [ new ol.style.Style({
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(103,0,13,1.0)"}), angle: 0})
+                        })
+                        ]};var categoriesSelected_emsr317_3tompe_2grading_map_v1_vectoremsr317_3tompe_gra_v1_built_up_p = {"Damaged": [ new ol.style.Style({
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"}), angle: 0})
+                        })
+                        ],
+"Destroyed": [ new ol.style.Style({
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"}), angle: 0})
+                        })
+                        ],
+"Possibly damaged": [ new ol.style.Style({
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"}), angle: 0})
+                        })
+                        ],
+"": [ new ol.style.Style({
+                            image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"}), angle: 0})
+                        })
+                        ]};
+                    var textStyleCache_emsr317_3tompe_2grading_map_v1_vectoremsr317_3tompe_gra_v1_built_up_p={}
+                    var clusterStyleCache_emsr317_3tompe_2grading_map_v1_vectoremsr317_3tompe_gra_v1_built_up_p={}
+                    var style_emsr317_3tompe_2grading_map_v1_vectoremsr317_3tompe_gra_v1_built_up_p = function(feature, resolution){
+                        
+                        var value = feature.get("damage_gra");
+                        var style = categories_emsr317_3tompe_2grading_map_v1_vectoremsr317_3tompe_gra_v1_built_up_p[value];
+                        var allStyles = [];
+                        
+                        allStyles.push.apply(allStyles, style);
+                        return allStyles;
+                    };
+                    var selectionStyle_emsr317_3tompe_2grading_map_v1_vectoremsr317_3tompe_gra_v1_built_up_p = function(feature, resolution){
+                        
+                        var value = feature.get("damage_gra");
+                        var style = categoriesSelected_emsr317_3tompe_2grading_map_v1_vectoremsr317_3tompe_gra_v1_built_up_p[value]
+                        var allStyles = [];
+                        
+                        allStyles.push.apply(allStyles, style);
+                        return allStyles;
+                    };
 
-                    var textStyleCache_cc4contourlinestring={}
-                    var clusterStyleCache_cc4contourlinestring={}
-                    var style_cc4contourlinestring = function(feature, resolution){
+                    var textStyleCache_port={}
+                    var clusterStyleCache_port={}
+                    var style_port = function(feature, resolution){
                         
                         var value = "";
                         var style = [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(88,94,141,1.0)", lineDash: null, width: 0})
+                            image: new ol.style.RegularShape({points: 5, radius1: 3.8, radius2: 1.9, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(156,66,66,1.0)"}), angle: 0})
                         })
                         ];
                         var allStyles = [];
@@ -862,92 +733,11 @@ var categories_palu_grading_copernicusrapidmapping = {"Damaged": [ new ol.style.
                         allStyles.push.apply(allStyles, style);
                         return allStyles;
                     };
-                    var selectionStyle_cc4contourlinestring = function(feature, resolution){
+                    var selectionStyle_port = function(feature, resolution){
                         
                         var value = "";
                         var style = [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0})
-                        })
-                        ]
-                        var allStyles = [];
-                        
-                        allStyles.push.apply(allStyles, style);
-                        return allStyles;
-                    };
-
-                    var textStyleCache_cc3contourlinestring={}
-                    var clusterStyleCache_cc3contourlinestring={}
-                    var style_cc3contourlinestring = function(feature, resolution){
-                        
-                        var value = "";
-                        var style = [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(128,114,218,1.0)", lineDash: null, width: 0})
-                        })
-                        ];
-                        var allStyles = [];
-                        
-                        allStyles.push.apply(allStyles, style);
-                        return allStyles;
-                    };
-                    var selectionStyle_cc3contourlinestring = function(feature, resolution){
-                        
-                        var value = "";
-                        var style = [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0})
-                        })
-                        ]
-                        var allStyles = [];
-                        
-                        allStyles.push.apply(allStyles, style);
-                        return allStyles;
-                    };
-
-                    var textStyleCache_cc2contourlinestring={}
-                    var clusterStyleCache_cc2contourlinestring={}
-                    var style_cc2contourlinestring = function(feature, resolution){
-                        
-                        var value = "";
-                        var style = [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(59,162,114,1.0)", lineDash: null, width: 0})
-                        })
-                        ];
-                        var allStyles = [];
-                        
-                        allStyles.push.apply(allStyles, style);
-                        return allStyles;
-                    };
-                    var selectionStyle_cc2contourlinestring = function(feature, resolution){
-                        
-                        var value = "";
-                        var style = [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0})
-                        })
-                        ]
-                        var allStyles = [];
-                        
-                        allStyles.push.apply(allStyles, style);
-                        return allStyles;
-                    };
-
-                    var textStyleCache_cc1contourlinestring={}
-                    var clusterStyleCache_cc1contourlinestring={}
-                    var style_cc1contourlinestring = function(feature, resolution){
-                        
-                        var value = "";
-                        var style = [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(203,70,132,1.0)", lineDash: null, width: 0})
-                        })
-                        ];
-                        var allStyles = [];
-                        
-                        allStyles.push.apply(allStyles, style);
-                        return allStyles;
-                    };
-                    var selectionStyle_cc1contourlinestring = function(feature, resolution){
-                        
-                        var value = "";
-                        var style = [ new ol.style.Style({
-                            stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0})
+                            image: new ol.style.RegularShape({points: 5, radius1: 3.8, radius2: 1.9, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"}), angle: 0})
                         })
                         ]
                         var allStyles = [];
@@ -960,21 +750,35 @@ var baseLayers = [new ol.layer.Tile({
                         title: 'No base layer'
                     }),new ol.layer.Tile({
     type: 'base',
-    title: 'Open topo map',
-    source: new ol.source.XYZ({
-        url: 'http://s.tile.opentopomap.org/{z}/{x}/{y}.png',
-        attributions: [new ol.Attribution({ html: ['Map data: &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)']
-        })]
-    }),
-    projection: 'EPSG:3857'
-})
-
-,new ol.layer.Tile({
-    type: 'base',
     title: 'ESRI DeLorme world map',
     source: new ol.source.XYZ({
         attributions: [new ol.Attribution({ html:['Tiles &copy; Esri &mdash; Copyright: &copy;2012 DeLorme']})],
         url: 'http://server.arcgisonline.com/ArcGIS/rest/services/Specialty/DeLorme_World_Base_Map/MapServer/tile/{z}/{y}/{x}'
+    }),
+    projection: 'EPSG:3857'
+})
+,new ol.layer.Tile({
+    type: 'base',
+    title: 'ESRI world street map',
+    source: new ol.source.XYZ({
+        attributions: [new ol.Attribution({ html:['Tiles &copy; <a href="http://services.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer">ArcGIS</a>']})],
+        url: 'http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}'
+    }),
+    projection: 'EPSG:3857'
+})
+,new ol.layer.Tile({
+    type: 'base',
+    title: 'MapQuest roads',
+    source: new ol.source.MapQuest({layer: 'osm'}),
+    projection: 'EPSG:3857'
+})
+,new ol.layer.Tile({
+    type: 'base',
+    title: 'CartoDB dark',
+    source: new ol.source.XYZ({
+        url: 'http://s.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png',
+        attributions: [new ol.Attribution({ html: ['&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>']
+        })]
     }),
     projection: 'EPSG:3857'
 })
@@ -988,8 +792,46 @@ var baseLayers = [new ol.layer.Tile({
     projection: 'EPSG:3857'
 }),new ol.layer.Tile({
     type: 'base',
+    title: 'Stamen toner lite',
+    source: new ol.source.Stamen({layer: 'toner-lite'}),
+    projection: 'EPSG:3857'
+})
+,new ol.layer.Tile({
+    type: 'base',
+    title: 'ESRI world terrain',
+    source: new ol.source.XYZ({
+        attributions: [new ol.Attribution({ html:['Tiles &copy; Esri &mdash; Source: USGS, Esri, TANA, DeLorme, and NPS']})],
+        url: 'http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer/tile/{z}/{y}/{x}'
+    }),
+    projection: 'EPSG:3857'
+})
+
+,new ol.layer.Tile({
+    type: 'base',
+    title: 'Stamen watercolor',
+    source: new ol.source.Stamen({layer: 'watercolor'}),
+    projection: 'EPSG:3857'
+})
+,new ol.layer.Tile({
+    type: 'base',
+    title: 'OSM Mapnik',
+    source: new ol.source.OSM(),
+    projection: 'EPSG:3857'
+})
+,new ol.layer.Tile({
+    type: 'base',
     title: 'Stamen toner',
     source: new ol.source.Stamen({layer: 'toner'}),
+    projection: 'EPSG:3857'
+})
+,new ol.layer.Tile({
+    type: 'base',
+    title: 'CartoDB dark without labels',
+    source: new ol.source.XYZ({
+        url: 'http://s.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}.png',
+        attributions: [new ol.Attribution({ html: ['&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>']
+        })]
+    }),
     projection: 'EPSG:3857'
 })
 ,new ol.layer.Tile({
@@ -1001,22 +843,90 @@ var baseLayers = [new ol.layer.Tile({
     }),
     projection: 'EPSG:3857'
 })
+,new ol.layer.Tile({
+    type: 'base',
+    title: 'ESRI world topo map',
+    source: new ol.source.XYZ({
+        attributions: [new ol.Attribution({ html:['Tiles &copy; <a href="http://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer">ArcGIS</a>']})],
+        url: 'http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}'
+    }),
+    projection: 'EPSG:3857'
+})
+,new ol.layer.Tile({
+    type: 'base',
+    title: 'Open topo map',
+    source: new ol.source.XYZ({
+        url: 'http://s.tile.opentopomap.org/{z}/{x}/{y}.png',
+        attributions: [new ol.Attribution({ html: ['Map data: &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)']
+        })]
+    }),
+    projection: 'EPSG:3857'
+})
+
+,new ol.layer.Tile({
+    type: 'base',
+    title: 'CartoDB light without labels',
+    source: new ol.source.XYZ({
+        url: 'http://s.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png',
+        attributions: [new ol.Attribution({ html: ['&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>']
+        })]
+    }),
+    projection: 'EPSG:3857'
+})
+,new ol.layer.Tile({
+    type: 'base',
+    title: 'ESRI world shaded relief',
+    source: new ol.source.XYZ({
+        attributions: [new ol.Attribution({ html:['Tiles &copy; Esri &mdash; Source: Esri']})],
+        url: 'http://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}'
+    }),
+    projection: 'EPSG:3857'
+})
+,new ol.layer.Tile({
+    type: 'base',
+    title: 'MapQuest aerial',
+    source: new ol.source.MapQuest({layer: 'sat'})
+})
+,new ol.layer.Tile({
+    type: 'base',
+    title: 'CartoDB light',
+    source: new ol.source.XYZ({
+        url: 'http://s.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png',
+        attributions: [new ol.Attribution({ html: ['&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>']
+        })]
+    }),
+    projection: 'EPSG:3857'
+})
 ];var baseLayersGroup = new ol.layer.Group({showContent: true,'type':
-                    'base-group', 'title': 'Base maps', layers: baseLayers});
+                    'base-group', 'title': 'Base maps', layers: baseLayers});var overviewMapBaseLayer = baseLayersGroup;
 var overlayLayers = [new ol.layer.Tile({
 	type: 'base-overlay',
-	title: 'OpenWeatherMap temperature',
+	title: 'OpenWeatherMap pressure',
 	source: new ol.source.XYZ({
-		url: 'http://s.tile.openweathermap.org/map/temp/{z}/{x}/{y}.png',
+		url: 'http://s.tile.openweathermap.org/map/pressure_cntr/{z}/{x}/{y}.png',
 		attributions: [new ol.Attribution({html:['Map data &copy; <a href="http://openweathermap.org">OpenWeatherMap</a>']})],
 	}),
     projection: 'EPSG:3857'
 })
 ,new ol.layer.Tile({
 	type: 'base-overlay',
-	title: 'OpenWeatherMap wind',
+	title: 'Stamen toner lite',
+	source: new ol.source.Stamen({layer: 'toner-hybrid'}),
+    projection: 'EPSG:3857'
+})
+,new ol.layer.Tile({
+	type: 'base-overlay',
+	title: 'Hydda roads and labels',
 	source: new ol.source.XYZ({
-		url: 'http://s.tile.openweathermap.org/map/wind/{z}/{x}/{y}.png',
+		url: 'http://s.tile.openstreetmap.se/hydda/roads_and_labels/{z}/{x}/{y}.png'
+	}),
+    projection: 'EPSG:3857'
+})
+,new ol.layer.Tile({
+	type: 'base-overlay',
+	title: 'OpenWeatherMap temperature',
+	source: new ol.source.XYZ({
+		url: 'http://s.tile.openweathermap.org/map/temp/{z}/{x}/{y}.png',
 		attributions: [new ol.Attribution({html:['Map data &copy; <a href="http://openweathermap.org">OpenWeatherMap</a>']})],
 	}),
     projection: 'EPSG:3857'
@@ -1029,9 +939,16 @@ var overlayLayers = [new ol.layer.Tile({
 })
 ,new ol.layer.Tile({
 	type: 'base-overlay',
-	title: 'OpenWeatherMap clouds',
+	title: 'MapQuest labels',
+	source: new ol.source.MapQuest({layer: 'hyb'}),
+    projection: 'EPSG:3857'
+
+})
+,new ol.layer.Tile({
+	type: 'base-overlay',
+	title: 'OpenWeatherMap wind',
 	source: new ol.source.XYZ({
-		url: 'http://s.tile.openweathermap.org/map/clouds/{z}/{x}/{y}.png',
+		url: 'http://s.tile.openweathermap.org/map/wind/{z}/{x}/{y}.png',
 		attributions: [new ol.Attribution({html:['Map data &copy; <a href="http://openweathermap.org">OpenWeatherMap</a>']})],
 	}),
     projection: 'EPSG:3857'
@@ -1042,9 +959,18 @@ var overlayLayers = [new ol.layer.Tile({
 	source: new ol.source.Stamen({layer: 'toner-lines'}),
     projection: 'EPSG:3857'
 })
+,new ol.layer.Tile({
+	type: 'base-overlay',
+	title: 'OpenWeatherMap clouds',
+	source: new ol.source.XYZ({
+		url: 'http://s.tile.openweathermap.org/map/clouds/{z}/{x}/{y}.png',
+		attributions: [new ol.Attribution({html:['Map data &copy; <a href="http://openweathermap.org">OpenWeatherMap</a>']})],
+	}),
+    projection: 'EPSG:3857'
+})
 ];var overlaysGroup = new ol.layer.Group({showContent: true, 'title': 'Overlays', layers: overlayLayers});
 var lyr_accessibilitytocitiespalu7 = new ol.layer.Vector({
-                    opacity: 0.09,
+                    opacity: 0.15,
                     source: new ol.source.Vector(),
                      
                     style: style_accessibilitytocitiespalu7,
@@ -1075,22 +1001,6 @@ var lyr_donggala_grading_copernicusrapidmapping = new ol.layer.Vector({
 donggala_grading_copernicusrapidmapping_geojson_callback = function(geojson) {
                               lyr_donggala_grading_copernicusrapidmapping.getSource().addFeatures(new ol.format.GeoJSON().readFeatures(geojson));
                         };
-var lyr_emsr317_6paluwest_2grading_map_v1_vectoremsr317_6paluwest_gra_v1_natural_land_use_a = new ol.layer.Vector({
-                    opacity: 1.0,
-                    source: new ol.source.Vector(),
-                     
-                    style: style_emsr317_6paluwest_2grading_map_v1_vectoremsr317_6paluwest_gra_v1_natural_land_use_a,
-                    selectedStyle: selectionStyle_emsr317_6paluwest_2grading_map_v1_vectoremsr317_6paluwest_gra_v1_natural_land_use_a,
-                    title: "EMSR317_06PALUWEST_02GRADING_MAP_v1_vector EMSR317_06PALUWEST_GRA_v1_natural_land_use_a",
-                    id: "EMSR317_06PALUWEST_02GRADING_MAP_v1_vector_EMSR317_06PALUWEST_GRA_v1_natural_land_use_a20181001175350885",
-                    filters: [],
-                    timeInfo: null,
-                    isSelectable: true,
-                    popupInfo: ""
-                });
-emsr317_6paluwest_2grading_map_v1_vectoremsr317_6paluwest_gra_v1_natural_land_use_a_geojson_callback = function(geojson) {
-                              lyr_emsr317_6paluwest_2grading_map_v1_vectoremsr317_6paluwest_gra_v1_natural_land_use_a.getSource().addFeatures(new ol.format.GeoJSON().readFeatures(geojson));
-                        };
 var lyr_paluwest_grading_copernicusrapidmapping = new ol.layer.Vector({
                     opacity: 1.0,
                     source: new ol.source.Vector(),
@@ -1106,22 +1016,6 @@ var lyr_paluwest_grading_copernicusrapidmapping = new ol.layer.Vector({
                 });
 paluwest_grading_copernicusrapidmapping_geojson_callback = function(geojson) {
                               lyr_paluwest_grading_copernicusrapidmapping.getSource().addFeatures(new ol.format.GeoJSON().readFeatures(geojson));
-                        };
-var lyr_emsr317_8palueast_2grading_map_v1_vectoremsr317_8palueast_gra_v1_natural_land_use_a = new ol.layer.Vector({
-                    opacity: 1.0,
-                    source: new ol.source.Vector(),
-                     
-                    style: style_emsr317_8palueast_2grading_map_v1_vectoremsr317_8palueast_gra_v1_natural_land_use_a,
-                    selectedStyle: selectionStyle_emsr317_8palueast_2grading_map_v1_vectoremsr317_8palueast_gra_v1_natural_land_use_a,
-                    title: "EMSR317_08PALUEAST_02GRADING_MAP_v1_vector EMSR317_08PALUEAST_GRA_v1_natural_land_use_a",
-                    id: "EMSR317_08PALUEAST_02GRADING_MAP_v1_vector_EMSR317_08PALUEAST_GRA_v1_natural_land_use_a20181001175354949",
-                    filters: [],
-                    timeInfo: null,
-                    isSelectable: true,
-                    popupInfo: ""
-                });
-emsr317_8palueast_2grading_map_v1_vectoremsr317_8palueast_gra_v1_natural_land_use_a_geojson_callback = function(geojson) {
-                              lyr_emsr317_8palueast_2grading_map_v1_vectoremsr317_8palueast_gra_v1_natural_land_use_a.getSource().addFeatures(new ol.format.GeoJSON().readFeatures(geojson));
                         };
 var lyr_palueast_grading_copernicusrapidmapping = new ol.layer.Vector({
                     opacity: 1.0,
@@ -1139,85 +1033,21 @@ var lyr_palueast_grading_copernicusrapidmapping = new ol.layer.Vector({
 palueast_grading_copernicusrapidmapping_geojson_callback = function(geojson) {
                               lyr_palueast_grading_copernicusrapidmapping.getSource().addFeatures(new ol.format.GeoJSON().readFeatures(geojson));
                         };
-var lyr_emsr317_7palu_2grading_map_v2_vectoremsr317_7palu_gra_v2_natural_land_use_a = new ol.layer.Vector({
+var lyr_safeareafortemporaryresettlement = new ol.layer.Vector({
                     opacity: 1.0,
                     source: new ol.source.Vector(),
                      
-                    style: style_emsr317_7palu_2grading_map_v2_vectoremsr317_7palu_gra_v2_natural_land_use_a,
-                    selectedStyle: selectionStyle_emsr317_7palu_2grading_map_v2_vectoremsr317_7palu_gra_v2_natural_land_use_a,
-                    title: "EMSR317_07PALU_02GRADING_MAP_v2_vector EMSR317_07PALU_GRA_v2_natural_land_use_a",
-                    id: "EMSR317_07PALU_02GRADING_MAP_v2_vector_EMSR317_07PALU_GRA_v2_natural_land_use_a20181001175357952",
-                    filters: [],
-                    timeInfo: null,
-                    isSelectable: true,
-                    popupInfo: ""
-                });
-emsr317_7palu_2grading_map_v2_vectoremsr317_7palu_gra_v2_natural_land_use_a_geojson_callback = function(geojson) {
-                              lyr_emsr317_7palu_2grading_map_v2_vectoremsr317_7palu_gra_v2_natural_land_use_a.getSource().addFeatures(new ol.format.GeoJSON().readFeatures(geojson));
-                        };
-var lyr_polygons_6 = new ol.layer.Vector({
-                    opacity: 1.0,
-                    source: new ol.source.Vector(),
-                     
-                    style: style_polygons_6,
-                    selectedStyle: selectionStyle_polygons_6,
-                    title: "polygons_6",
-                    id: "polygons_620181002071043665",
-                    filters: [],
-                    timeInfo: null,
-                    isSelectable: true,
-                    popupInfo: ""
-                });
-polygons_6_geojson_callback = function(geojson) {
-                              lyr_polygons_6.getSource().addFeatures(new ol.format.GeoJSON().readFeatures(geojson));
-                        };
-var lyr_polygons_3polygons_3polygon = new ol.layer.Vector({
-                    opacity: 1.0,
-                    source: new ol.source.Vector(),
-                     
-                    style: style_polygons_3polygons_3polygon,
-                    selectedStyle: selectionStyle_polygons_3polygons_3polygon,
-                    title: "polygons_3 polygons_3 Polygon",
+                    style: style_safeareafortemporaryresettlement,
+                    selectedStyle: selectionStyle_safeareafortemporaryresettlement,
+                    title: "Safe Area for Temporary Resettlement",
                     id: "polygons_3_polygons_3_Polygon20181002071118040",
                     filters: [],
                     timeInfo: null,
                     isSelectable: true,
                     popupInfo: ""
                 });
-polygons_3polygons_3polygon_geojson_callback = function(geojson) {
-                              lyr_polygons_3polygons_3polygon.getSource().addFeatures(new ol.format.GeoJSON().readFeatures(geojson));
-                        };
-var lyr_polygons_3polygons_3linestring = new ol.layer.Vector({
-                    opacity: 1.0,
-                    source: new ol.source.Vector(),
-                     
-                    style: style_polygons_3polygons_3linestring,
-                    selectedStyle: selectionStyle_polygons_3polygons_3linestring,
-                    title: "polygons_3 polygons_3 LineString",
-                    id: "polygons_3_polygons_3_LineString20181002071117903",
-                    filters: [],
-                    timeInfo: null,
-                    isSelectable: true,
-                    popupInfo: ""
-                });
-polygons_3polygons_3linestring_geojson_callback = function(geojson) {
-                              lyr_polygons_3polygons_3linestring.getSource().addFeatures(new ol.format.GeoJSON().readFeatures(geojson));
-                        };
-var lyr_geojson_gdacsgeojson_gdacspolygon = new ol.layer.Vector({
-                    opacity: 1.0,
-                    source: new ol.source.Vector(),
-                     
-                    style: style_geojson_gdacsgeojson_gdacspolygon,
-                    selectedStyle: selectionStyle_geojson_gdacsgeojson_gdacspolygon,
-                    title: "geojson_gdacs geojson_gdacs Polygon",
-                    id: "geojson_gdacs_geojson_gdacs_Polygon20181002071122809",
-                    filters: [],
-                    timeInfo: null,
-                    isSelectable: true,
-                    popupInfo: ""
-                });
-geojson_gdacsgeojson_gdacspolygon_geojson_callback = function(geojson) {
-                              lyr_geojson_gdacsgeojson_gdacspolygon.getSource().addFeatures(new ol.format.GeoJSON().readFeatures(geojson));
+safeareafortemporaryresettlement_geojson_callback = function(geojson) {
+                              lyr_safeareafortemporaryresettlement.getSource().addFeatures(new ol.format.GeoJSON().readFeatures(geojson));
                         };
 var lyr_geojson_gdacsgeojson_gdacspoint = new ol.layer.Vector({
                     opacity: 1.0,
@@ -1234,54 +1064,6 @@ var lyr_geojson_gdacsgeojson_gdacspoint = new ol.layer.Vector({
                 });
 geojson_gdacsgeojson_gdacspoint_geojson_callback = function(geojson) {
                               lyr_geojson_gdacsgeojson_gdacspoint.getSource().addFeatures(new ol.format.GeoJSON().readFeatures(geojson));
-                        };
-var lyr_contour_6meterintervalbathymetry = new ol.layer.Vector({
-                    opacity: 1.0,
-                    source: new ol.source.Vector(),
-                     
-                    style: style_contour_6meterintervalbathymetry,
-                    selectedStyle: selectionStyle_contour_6meterintervalbathymetry,
-                    title: "contour_600meterintervalbathymetry",
-                    id: "contour_600meterintervalbathymetry20181002071118171",
-                    filters: [],
-                    timeInfo: null,
-                    isSelectable: true,
-                    popupInfo: ""
-                });
-contour_6meterintervalbathymetry_geojson_callback = function(geojson) {
-                              lyr_contour_6meterintervalbathymetry.getSource().addFeatures(new ol.format.GeoJSON().readFeatures(geojson));
-                        };
-var lyr_polygons_4 = new ol.layer.Vector({
-                    opacity: 1.0,
-                    source: new ol.source.Vector(),
-                     
-                    style: style_polygons_4,
-                    selectedStyle: selectionStyle_polygons_4,
-                    title: "polygons_4",
-                    id: "polygons_420181002071112373",
-                    filters: [],
-                    timeInfo: null,
-                    isSelectable: true,
-                    popupInfo: ""
-                });
-polygons_4_geojson_callback = function(geojson) {
-                              lyr_polygons_4.getSource().addFeatures(new ol.format.GeoJSON().readFeatures(geojson));
-                        };
-var lyr_polygons_5 = new ol.layer.Vector({
-                    opacity: 1.0,
-                    source: new ol.source.Vector(),
-                     
-                    style: style_polygons_5,
-                    selectedStyle: selectionStyle_polygons_5,
-                    title: "polygons_5",
-                    id: "polygons_520181002071112354",
-                    filters: [],
-                    timeInfo: null,
-                    isSelectable: true,
-                    popupInfo: ""
-                });
-polygons_5_geojson_callback = function(geojson) {
-                              lyr_polygons_5.getSource().addFeatures(new ol.format.GeoJSON().readFeatures(geojson));
                         };
 var lyr_firstresponder = new ol.layer.Vector({
                     opacity: 1.0,
@@ -1315,104 +1097,110 @@ var lyr_palu_grading_copernicusrapidmapping = new ol.layer.Vector({
 palu_grading_copernicusrapidmapping_geojson_callback = function(geojson) {
                               lyr_palu_grading_copernicusrapidmapping.getSource().addFeatures(new ol.format.GeoJSON().readFeatures(geojson));
                         };
-var lyr_cc4contourlinestring = new ol.layer.Vector({
+var lyr_emsr317_1lombonga_2grading_map_v1_vectoremsr317_1lombonga_gra_v1_built_up_p = new ol.layer.Vector({
                     opacity: 1.0,
                     source: new ol.source.Vector(),
                      
-                    style: style_cc4contourlinestring,
-                    selectedStyle: selectionStyle_cc4contourlinestring,
-                    title: "cc4 contour LineString",
-                    id: "cc420180929154211550",
+                    style: style_emsr317_1lombonga_2grading_map_v1_vectoremsr317_1lombonga_gra_v1_built_up_p,
+                    selectedStyle: selectionStyle_emsr317_1lombonga_2grading_map_v1_vectoremsr317_1lombonga_gra_v1_built_up_p,
+                    title: "EMSR317_01LOMBONGA_02GRADING_MAP_v1_vector EMSR317_01LOMBONGA_GRA_v1_built_up_p",
+                    id: "EMSR317_01LOMBONGA_02GRADING_MAP_v1_vector_EMSR317_01LOMBONGA_GRA_v1_built_up_p20181002205347756",
                     filters: [],
                     timeInfo: null,
                     isSelectable: true,
                     popupInfo: ""
                 });
-cc4contourlinestring_geojson_callback = function(geojson) {
-                              lyr_cc4contourlinestring.getSource().addFeatures(new ol.format.GeoJSON().readFeatures(geojson));
+emsr317_1lombonga_2grading_map_v1_vectoremsr317_1lombonga_gra_v1_built_up_p_geojson_callback = function(geojson) {
+                              lyr_emsr317_1lombonga_2grading_map_v1_vectoremsr317_1lombonga_gra_v1_built_up_p.getSource().addFeatures(new ol.format.GeoJSON().readFeatures(geojson));
                         };
-var lyr_cc3contourlinestring = new ol.layer.Vector({
+var lyr_emsr317_2lende_2grading_map_v1_vectoremsr317_2lende_gra_v1_built_up_p = new ol.layer.Vector({
                     opacity: 1.0,
                     source: new ol.source.Vector(),
                      
-                    style: style_cc3contourlinestring,
-                    selectedStyle: selectionStyle_cc3contourlinestring,
-                    title: "cc3 contour LineString",
-                    id: "cc320180929154147577",
+                    style: style_emsr317_2lende_2grading_map_v1_vectoremsr317_2lende_gra_v1_built_up_p,
+                    selectedStyle: selectionStyle_emsr317_2lende_2grading_map_v1_vectoremsr317_2lende_gra_v1_built_up_p,
+                    title: "EMSR317_02LENDE_02GRADING_MAP_v1_vector EMSR317_02LENDE_GRA_v1_built_up_p",
+                    id: "EMSR317_02LENDE_02GRADING_MAP_v1_vector_EMSR317_02LENDE_GRA_v1_built_up_p20181002205350685",
                     filters: [],
                     timeInfo: null,
                     isSelectable: true,
                     popupInfo: ""
                 });
-cc3contourlinestring_geojson_callback = function(geojson) {
-                              lyr_cc3contourlinestring.getSource().addFeatures(new ol.format.GeoJSON().readFeatures(geojson));
+emsr317_2lende_2grading_map_v1_vectoremsr317_2lende_gra_v1_built_up_p_geojson_callback = function(geojson) {
+                              lyr_emsr317_2lende_2grading_map_v1_vectoremsr317_2lende_gra_v1_built_up_p.getSource().addFeatures(new ol.format.GeoJSON().readFeatures(geojson));
                         };
-var lyr_cc2contourlinestring = new ol.layer.Vector({
+var lyr_emsr317_1pelabuhan_2grading_map_v1_vectoremsr317_1pelabuhan_gra_v1_built_up_p = new ol.layer.Vector({
                     opacity: 1.0,
                     source: new ol.source.Vector(),
                      
-                    style: style_cc2contourlinestring,
-                    selectedStyle: selectionStyle_cc2contourlinestring,
-                    title: "cc2 contour LineString",
-                    id: "cc220180929154120809",
+                    style: style_emsr317_1pelabuhan_2grading_map_v1_vectoremsr317_1pelabuhan_gra_v1_built_up_p,
+                    selectedStyle: selectionStyle_emsr317_1pelabuhan_2grading_map_v1_vectoremsr317_1pelabuhan_gra_v1_built_up_p,
+                    title: "EMSR317_10PELABUHAN_02GRADING_MAP_v1_vector EMSR317_10PELABUHAN_GRA_v1_built_up_p",
+                    id: "EMSR317_10PELABUHAN_02GRADING_MAP_v1_vector_EMSR317_10PELABUHAN_GRA_v1_built_up_p20181002205353002",
                     filters: [],
                     timeInfo: null,
                     isSelectable: true,
                     popupInfo: ""
                 });
-cc2contourlinestring_geojson_callback = function(geojson) {
-                              lyr_cc2contourlinestring.getSource().addFeatures(new ol.format.GeoJSON().readFeatures(geojson));
+emsr317_1pelabuhan_2grading_map_v1_vectoremsr317_1pelabuhan_gra_v1_built_up_p_geojson_callback = function(geojson) {
+                              lyr_emsr317_1pelabuhan_2grading_map_v1_vectoremsr317_1pelabuhan_gra_v1_built_up_p.getSource().addFeatures(new ol.format.GeoJSON().readFeatures(geojson));
                         };
-var lyr_cc1contourlinestring = new ol.layer.Vector({
+var lyr_emsr317_3tompe_2grading_map_v1_vectoremsr317_3tompe_gra_v1_built_up_p = new ol.layer.Vector({
                     opacity: 1.0,
                     source: new ol.source.Vector(),
                      
-                    style: style_cc1contourlinestring,
-                    selectedStyle: selectionStyle_cc1contourlinestring,
-                    title: "cc1 contour LineString",
-                    id: "cc120180929154042531",
+                    style: style_emsr317_3tompe_2grading_map_v1_vectoremsr317_3tompe_gra_v1_built_up_p,
+                    selectedStyle: selectionStyle_emsr317_3tompe_2grading_map_v1_vectoremsr317_3tompe_gra_v1_built_up_p,
+                    title: "EMSR317_03TOMPE_02GRADING_MAP_v1_vector EMSR317_03TOMPE_GRA_v1_built_up_p",
+                    id: "EMSR317_03TOMPE_02GRADING_MAP_v1_vector_EMSR317_03TOMPE_GRA_v1_built_up_p20181002205358465",
                     filters: [],
                     timeInfo: null,
                     isSelectable: true,
                     popupInfo: ""
                 });
-cc1contourlinestring_geojson_callback = function(geojson) {
-                              lyr_cc1contourlinestring.getSource().addFeatures(new ol.format.GeoJSON().readFeatures(geojson));
+emsr317_3tompe_2grading_map_v1_vectoremsr317_3tompe_gra_v1_built_up_p_geojson_callback = function(geojson) {
+                              lyr_emsr317_3tompe_2grading_map_v1_vectoremsr317_3tompe_gra_v1_built_up_p.getSource().addFeatures(new ol.format.GeoJSON().readFeatures(geojson));
+                        };
+var lyr_port = new ol.layer.Vector({
+                    opacity: 1.0,
+                    source: new ol.source.Vector(),
+                     
+                    style: style_port,
+                    selectedStyle: selectionStyle_port,
+                    title: "Port",
+                    id: "Port20181002210754462",
+                    filters: [],
+                    timeInfo: null,
+                    isSelectable: true,
+                    popupInfo: ""
+                });
+port_geojson_callback = function(geojson) {
+                              lyr_port.getSource().addFeatures(new ol.format.GeoJSON().readFeatures(geojson));
                         };
 
 lyr_accessibilitytocitiespalu7.setVisible(true);
 lyr_donggala_grading_copernicusrapidmapping.setVisible(true);
-lyr_emsr317_6paluwest_2grading_map_v1_vectoremsr317_6paluwest_gra_v1_natural_land_use_a.setVisible(true);
 lyr_paluwest_grading_copernicusrapidmapping.setVisible(true);
-lyr_emsr317_8palueast_2grading_map_v1_vectoremsr317_8palueast_gra_v1_natural_land_use_a.setVisible(true);
 lyr_palueast_grading_copernicusrapidmapping.setVisible(true);
-lyr_emsr317_7palu_2grading_map_v2_vectoremsr317_7palu_gra_v2_natural_land_use_a.setVisible(true);
-lyr_polygons_6.setVisible(true);
-lyr_polygons_3polygons_3polygon.setVisible(true);
-lyr_polygons_3polygons_3linestring.setVisible(true);
-lyr_geojson_gdacsgeojson_gdacspolygon.setVisible(true);
+lyr_safeareafortemporaryresettlement.setVisible(true);
 lyr_geojson_gdacsgeojson_gdacspoint.setVisible(true);
-lyr_contour_6meterintervalbathymetry.setVisible(true);
-lyr_polygons_4.setVisible(true);
-lyr_polygons_5.setVisible(true);
 lyr_firstresponder.setVisible(true);
 lyr_palu_grading_copernicusrapidmapping.setVisible(true);
-lyr_cc4contourlinestring.setVisible(true);
-lyr_cc3contourlinestring.setVisible(true);
-lyr_cc2contourlinestring.setVisible(true);
-lyr_cc1contourlinestring.setVisible(true);for (var i=0;i<baseLayers.length;i++){baseLayers[i].setVisible(false);}baseLayers[1].setVisible(true);
-var layersList = [lyr_accessibilitytocitiespalu7,lyr_donggala_grading_copernicusrapidmapping,lyr_emsr317_6paluwest_2grading_map_v1_vectoremsr317_6paluwest_gra_v1_natural_land_use_a,lyr_paluwest_grading_copernicusrapidmapping,lyr_emsr317_8palueast_2grading_map_v1_vectoremsr317_8palueast_gra_v1_natural_land_use_a,lyr_palueast_grading_copernicusrapidmapping,lyr_emsr317_7palu_2grading_map_v2_vectoremsr317_7palu_gra_v2_natural_land_use_a,lyr_polygons_6,lyr_polygons_3polygons_3polygon,lyr_polygons_3polygons_3linestring,lyr_geojson_gdacsgeojson_gdacspolygon,lyr_geojson_gdacsgeojson_gdacspoint,lyr_contour_6meterintervalbathymetry,lyr_polygons_4,lyr_polygons_5,lyr_firstresponder,lyr_palu_grading_copernicusrapidmapping,lyr_cc4contourlinestring,lyr_cc3contourlinestring,lyr_cc2contourlinestring,lyr_cc1contourlinestring];layersList.unshift(baseLayersGroup);layersList.push(overlaysGroup);
+lyr_emsr317_1lombonga_2grading_map_v1_vectoremsr317_1lombonga_gra_v1_built_up_p.setVisible(true);
+lyr_emsr317_2lende_2grading_map_v1_vectoremsr317_2lende_gra_v1_built_up_p.setVisible(true);
+lyr_emsr317_1pelabuhan_2grading_map_v1_vectoremsr317_1pelabuhan_gra_v1_built_up_p.setVisible(true);
+lyr_emsr317_3tompe_2grading_map_v1_vectoremsr317_3tompe_gra_v1_built_up_p.setVisible(true);
+lyr_port.setVisible(true);for (var i=0;i<baseLayers.length;i++){baseLayers[i].setVisible(false);}baseLayers[1].setVisible(true);
+var layersList = [lyr_accessibilitytocitiespalu7,lyr_donggala_grading_copernicusrapidmapping,lyr_paluwest_grading_copernicusrapidmapping,lyr_palueast_grading_copernicusrapidmapping,lyr_safeareafortemporaryresettlement,lyr_geojson_gdacsgeojson_gdacspoint,lyr_firstresponder,lyr_palu_grading_copernicusrapidmapping,lyr_emsr317_1lombonga_2grading_map_v1_vectoremsr317_1lombonga_gra_v1_built_up_p,lyr_emsr317_2lende_2grading_map_v1_vectoremsr317_2lende_gra_v1_built_up_p,lyr_emsr317_1pelabuhan_2grading_map_v1_vectoremsr317_1pelabuhan_gra_v1_built_up_p,lyr_emsr317_3tompe_2grading_map_v1_vectoremsr317_3tompe_gra_v1_built_up_p,lyr_port];layersList.unshift(baseLayersGroup);layersList.push(overlaysGroup);
 var printLayouts = [];
-var legendData = {"cc320180929154147577": [{"href": "18_0.png", "title": ""}], "contour_600meterintervalbathymetry20181002071118171": [{"href": "12_0.png", "title": ""}], "EMSR317_07PALU_02GRADING_MAP_v2_vector_EMSR317_07PALU_GRA_v2_natural_land_use_a20181001175357952": [{"href": "6_0.png", "title": "2-Agricultural Areas"}, {"href": "6_1.png", "title": "3-Forests and Semi-natural Areas"}, {"href": "6_2.png", "title": "4-Wetlands"}, {"href": "6_3.png", "title": ""}], "PALUWEST_Grading_CopernicusRapidMapping20181001180806467": [{"href": "3_0.png", "title": "Damaged"}, {"href": "3_1.png", "title": "Destroyed"}, {"href": "3_2.png", "title": "None"}, {"href": "3_3.png", "title": "Possibly damaged"}, {"href": "3_4.png", "title": ""}], "FirstResponder20181002071112231": [{"href": "15_0.png", "title": ""}], "EMSR317_06PALUWEST_02GRADING_MAP_v1_vector_EMSR317_06PALUWEST_GRA_v1_natural_land_use_a20181001175350885": [{"href": "2_0.png", "title": "2-Agricultural Areas"}, {"href": "2_1.png", "title": "3-Forests and Semi-natural Areas"}, {"href": "2_2.png", "title": ""}], "DONGGALA_Grading_CopernicusRapidMapping20181001180912604": [{"href": "1_0.png", "title": "Damaged"}, {"href": "1_1.png", "title": "Destroyed"}, {"href": "1_2.png", "title": "Possibly damaged"}, {"href": "1_3.png", "title": ""}], "polygons_3_polygons_3_Polygon20181002071118040": [{"href": "8_0.png", "title": ""}], "accessibilitytocitiespalu720181002064012068": [{"href": "0_0.png", "title": "0"}, {"href": "0_1.png", "title": "116"}, {"href": "0_2.png", "title": "12"}, {"href": "0_3.png", "title": "134"}, {"href": "0_4.png", "title": "155"}, {"href": "0_5.png", "title": "182"}, {"href": "0_6.png", "title": "2"}, {"href": "0_7.png", "title": "204"}, {"href": "0_8.png", "title": "207"}, {"href": "0_9.png", "title": "225"}, {"href": "0_10.png", "title": "226"}, {"href": "0_11.png", "title": "242"}, {"href": "0_12.png", "title": "25"}, {"href": "0_13.png", "title": "4"}, {"href": "0_14.png", "title": "42"}, {"href": "0_15.png", "title": "63"}, {"href": "0_16.png", "title": "95"}, {"href": "0_17.png", "title": ""}], "geojson_gdacs_geojson_gdacs_Polygon20181002071122809": [{"href": "10_0.png", "title": ""}], "polygons_620181002071043665": [{"href": "7_0.png", "title": ""}], "EMSR317_08PALUEAST_02GRADING_MAP_v1_vector_EMSR317_08PALUEAST_GRA_v1_natural_land_use_a20181001175354949": [{"href": "4_0.png", "title": "2-Agricultural Areas"}, {"href": "4_1.png", "title": "3-Forests and Semi-natural Areas"}, {"href": "4_2.png", "title": "998-Other"}, {"href": "4_3.png", "title": ""}], "cc220180929154120809": [{"href": "19_0.png", "title": ""}], "cc120180929154042531": [{"href": "20_0.png", "title": ""}], "PALU_Grading_CopernicusRapidMapping20181001180027272": [{"href": "16_0.png", "title": "Damaged"}, {"href": "16_1.png", "title": "Destroyed"}, {"href": "16_2.png", "title": "Possibly damaged"}, {"href": "16_3.png", "title": ""}], "polygons_420181002071112373": [{"href": "13_0.png", "title": ""}], "polygons_3_polygons_3_LineString20181002071117903": [{"href": "9_0.png", "title": ""}], "polygons_520181002071112354": [{"href": "14_0.png", "title": ""}], "PALUEAST_Grading_CopernicusRapidMapping20181001180247354": [{"href": "5_0.png", "title": "Damaged"}, {"href": "5_1.png", "title": "Destroyed"}, {"href": "5_2.png", "title": "Possibly damaged"}, {"href": "5_3.png", "title": ""}], "geojson_gdacs_geojson_gdacs_Point20181002071122802": [{"href": "11_0.png", "title": ""}], "cc420180929154211550": [{"href": "17_0.png", "title": ""}]};
+var legendData = {"Port20181002210754462": [{"href": "12_0.png", "title": ""}], "PALUWEST_Grading_CopernicusRapidMapping20181001180806467": [{"href": "2_0.png", "title": "Damaged"}, {"href": "2_1.png", "title": "Destroyed"}, {"href": "2_2.png", "title": "None"}, {"href": "2_3.png", "title": "Possibly damaged"}, {"href": "2_4.png", "title": ""}], "FirstResponder20181002071112231": [{"href": "6_0.png", "title": ""}], "DONGGALA_Grading_CopernicusRapidMapping20181001180912604": [{"href": "1_0.png", "title": "Damaged"}, {"href": "1_1.png", "title": "Destroyed"}, {"href": "1_2.png", "title": "Possibly damaged"}, {"href": "1_3.png", "title": ""}], "polygons_3_polygons_3_Polygon20181002071118040": [{"href": "4_0.png", "title": ""}], "PALUEAST_Grading_CopernicusRapidMapping20181001180247354": [{"href": "3_0.png", "title": "Damaged"}, {"href": "3_1.png", "title": "Destroyed"}, {"href": "3_2.png", "title": "Possibly damaged"}, {"href": "3_3.png", "title": ""}], "EMSR317_10PELABUHAN_02GRADING_MAP_v1_vector_EMSR317_10PELABUHAN_GRA_v1_built_up_p20181002205353002": [{"href": "10_0.png", "title": "Damaged"}, {"href": "10_1.png", "title": "Destroyed"}, {"href": "10_2.png", "title": "Possibly damaged"}, {"href": "10_3.png", "title": ""}], "EMSR317_02LENDE_02GRADING_MAP_v1_vector_EMSR317_02LENDE_GRA_v1_built_up_p20181002205350685": [{"href": "9_0.png", "title": "Damaged"}, {"href": "9_1.png", "title": "Destroyed"}, {"href": "9_2.png", "title": "Possibly damaged"}, {"href": "9_3.png", "title": ""}], "PALU_Grading_CopernicusRapidMapping20181001180027272": [{"href": "7_0.png", "title": "Damaged"}, {"href": "7_1.png", "title": "Destroyed"}, {"href": "7_2.png", "title": "Possibly damaged"}, {"href": "7_3.png", "title": ""}], "EMSR317_01LOMBONGA_02GRADING_MAP_v1_vector_EMSR317_01LOMBONGA_GRA_v1_built_up_p20181002205347756": [{"href": "8_0.png", "title": "Damaged"}, {"href": "8_1.png", "title": "Destroyed"}, {"href": "8_2.png", "title": "Possibly damaged"}, {"href": "8_3.png", "title": ""}], "accessibilitytocitiespalu720181002064012068": [{"href": "0_0.png", "title": "0"}, {"href": "0_1.png", "title": "116"}, {"href": "0_2.png", "title": "12"}, {"href": "0_3.png", "title": "134"}, {"href": "0_4.png", "title": "155"}, {"href": "0_5.png", "title": "182"}, {"href": "0_6.png", "title": "2"}, {"href": "0_7.png", "title": "204"}, {"href": "0_8.png", "title": "207"}, {"href": "0_9.png", "title": "225"}, {"href": "0_10.png", "title": "226"}, {"href": "0_11.png", "title": "242"}, {"href": "0_12.png", "title": "25"}, {"href": "0_13.png", "title": "4"}, {"href": "0_14.png", "title": "42"}, {"href": "0_15.png", "title": "63"}, {"href": "0_16.png", "title": "95"}, {"href": "0_17.png", "title": ""}], "geojson_gdacs_geojson_gdacs_Point20181002071122802": [{"href": "5_0.png", "title": ""}], "EMSR317_03TOMPE_02GRADING_MAP_v1_vector_EMSR317_03TOMPE_GRA_v1_built_up_p20181002205358465": [{"href": "11_0.png", "title": "Damaged"}, {"href": "11_1.png", "title": "Destroyed"}, {"href": "11_2.png", "title": "Possibly damaged"}, {"href": "11_3.png", "title": ""}]};
 var view = new ol.View({ maxZoom: 32, minZoom: 1, projection: 'EPSG:3857'});
-var originalExtent = [13339030.172496, -101691.211204, 13345067.148518, -95718.870900];
+var originalExtent = [13331346.803354, -78063.667982, 13333767.145191, -73982.653644];
 
 var map = new ol.Map({
   layers: layersList,
   view: view,
   controls: [new ol.control.FullScreen(),
-new ol.control.Attribution(),
-new ol.control.MousePosition({"projection": "EPSG:4326", "undefinedHTML": "&nbsp;", "coordinateFormat": ol.coordinate.createStringXY(4)}),
 new ol.control.ScaleLine({"minWidth": 64, "units": "metric"}),
 new ol.control.Rotate({autoHide: false})]
 });
@@ -1424,7 +1212,7 @@ var BasicApp = React.createClass({
     map.setTarget(ReactDOM.findDOMNode(this.refs.map));
     view = map.getView();
     view.fit(originalExtent, map.getSize());
-    
+    map.addControl(new ol.control.OverviewMap({collapsed: true, layers: [overviewMapBaseLayer, lyr_accessibilitytocitiespalu7,lyr_donggala_grading_copernicusrapidmapping,lyr_paluwest_grading_copernicusrapidmapping,lyr_palueast_grading_copernicusrapidmapping,lyr_safeareafortemporaryresettlement,lyr_geojson_gdacsgeojson_gdacspoint,lyr_firstresponder,lyr_palu_grading_copernicusrapidmapping,lyr_emsr317_1lombonga_2grading_map_v1_vectoremsr317_1lombonga_gra_v1_built_up_p,lyr_emsr317_2lende_2grading_map_v1_vectoremsr317_2lende_gra_v1_built_up_p,lyr_emsr317_1pelabuhan_2grading_map_v1_vectoremsr317_1pelabuhan_gra_v1_built_up_p,lyr_emsr317_3tompe_2grading_map_v1_vectoremsr317_3tompe_gra_v1_built_up_p,lyr_port]}));
   },
   _toggle(el) {
     if (el.style.display === 'block') {
@@ -1462,7 +1250,7 @@ var BasicApp = React.createClass({
                                 exclude: true},
 {text: 'Table', icon: 'list-alt', onClick: this._toggleTable.bind(this)},
 {text: 'Query', icon: 'filter', onClick: this._toggleQuery.bind(this)},
-{text: 'Edit', icon: 'pencil', onClick: this._toggleEdit.bind(this)},
+{jsx: React.createElement(Measure, {toggleGroup:'navigation', map:map})},
 {jsx: React.createElement(ImageExport, {map:map})},
 {
                               jsx: React.createElement(Select, {toggleGroup: 'navigation', map:map})
@@ -1472,7 +1260,6 @@ var BasicApp = React.createClass({
                               onClick: this._navigationFunc.bind(this)
                             },
 {jsx: React.createElement(QGISPrint, {map:map, layouts:printLayouts, thumbnailPath: './resources/print/',})},
-{jsx: React.createElement(Measure, {toggleGroup:'navigation', map:map})},
 {exclude: true, jsx: React.createElement("a", {className:"navbar-brand", href:"#"}, "My Web App")}];
     return React.createElement("article", null,
       React.createElement(Toolbar, {options: options}
@@ -1486,9 +1273,6 @@ React.createElement("div", {id:'geocoding-results', className:'geocoding-results
 React.createElement("div", {id: 'query-panel', className:'query-panel'},
                                           React.createElement(QueryBuilder, {map: map})
                                         ),
- React.createElement("div", {id: 'edit-tool-panel'},
-                                      React.createElement(Edit, {map: map, toggleGroup:'navigation'})
-                                    ),
 React.createElement("div", {id: 'popup', className: 'ol-popup'},
                                     React.createElement(InfoPopup, {map: map, hover: false})
                                   )
@@ -1504,9 +1288,6 @@ React.createElement("div",{id: "layerlist"},
                                         downloadFormat:'GeoJSON', map:map})),
 React.createElement("div", {id:'geolocation-control', className:'ol-unselectable ol-control'},
                                     React.createElement(Geolocation, {map:map})
-                                  ),
-React.createElement("div", {id:'home-button', className:'ol-unselectable ol-control'},
-                                    React.createElement(HomeButton, {map:map})
                                   ),
 React.createElement("div",{id: "legend"},
                                 React.createElement(QGISLegend, {map:map, legendBasePath:'./resources/legend/',showExpandedOnStartup:false, expandOnHover:true, legendData:legendData})
