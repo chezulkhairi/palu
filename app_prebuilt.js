@@ -901,70 +901,9 @@ var baseLayers = [new ol.layer.Tile({
                     'base-group', 'title': 'Base maps', layers: baseLayers});var overviewMapBaseLayer = baseLayersGroup;
 var overlayLayers = [new ol.layer.Tile({
 	type: 'base-overlay',
-	title: 'OpenWeatherMap pressure',
-	source: new ol.source.XYZ({
-		url: 'http://s.tile.openweathermap.org/map/pressure_cntr/{z}/{x}/{y}.png',
-		attributions: [new ol.Attribution({html:['Map data &copy; <a href="http://openweathermap.org">OpenWeatherMap</a>']})],
-	}),
-    projection: 'EPSG:3857'
-})
-,new ol.layer.Tile({
-	type: 'base-overlay',
-	title: 'Stamen toner lite',
-	source: new ol.source.Stamen({layer: 'toner-hybrid'}),
-    projection: 'EPSG:3857'
-})
-,new ol.layer.Tile({
-	type: 'base-overlay',
 	title: 'Hydda roads and labels',
 	source: new ol.source.XYZ({
 		url: 'http://s.tile.openstreetmap.se/hydda/roads_and_labels/{z}/{x}/{y}.png'
-	}),
-    projection: 'EPSG:3857'
-})
-,new ol.layer.Tile({
-	type: 'base-overlay',
-	title: 'OpenWeatherMap temperature',
-	source: new ol.source.XYZ({
-		url: 'http://s.tile.openweathermap.org/map/temp/{z}/{x}/{y}.png',
-		attributions: [new ol.Attribution({html:['Map data &copy; <a href="http://openweathermap.org">OpenWeatherMap</a>']})],
-	}),
-    projection: 'EPSG:3857'
-})
-,new ol.layer.Tile({
-	type: 'base-overlay',
-	title: 'Stamen toner labels',
-	source: new ol.source.Stamen({layer: 'toner-labels'}),
-    projection: 'EPSG:3857'
-})
-,new ol.layer.Tile({
-	type: 'base-overlay',
-	title: 'MapQuest labels',
-	source: new ol.source.MapQuest({layer: 'hyb'}),
-    projection: 'EPSG:3857'
-
-})
-,new ol.layer.Tile({
-	type: 'base-overlay',
-	title: 'OpenWeatherMap wind',
-	source: new ol.source.XYZ({
-		url: 'http://s.tile.openweathermap.org/map/wind/{z}/{x}/{y}.png',
-		attributions: [new ol.Attribution({html:['Map data &copy; <a href="http://openweathermap.org">OpenWeatherMap</a>']})],
-	}),
-    projection: 'EPSG:3857'
-})
-,new ol.layer.Tile({
-	type: 'base-overlay',
-	title: 'Stamen toner lines',
-	source: new ol.source.Stamen({layer: 'toner-lines'}),
-    projection: 'EPSG:3857'
-})
-,new ol.layer.Tile({
-	type: 'base-overlay',
-	title: 'OpenWeatherMap clouds',
-	source: new ol.source.XYZ({
-		url: 'http://s.tile.openweathermap.org/map/clouds/{z}/{x}/{y}.png',
-		attributions: [new ol.Attribution({html:['Map data &copy; <a href="http://openweathermap.org">OpenWeatherMap</a>']})],
 	}),
     projection: 'EPSG:3857'
 })
