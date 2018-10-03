@@ -40,7 +40,7 @@
 
 				<div class="well">
               	<ul class="nav nav-stacked" id="sidebar">
-                  <li><a href="#layerslist">Layers list</a></li><li><a href="#geocoding">Geocoding</a></li><li><a href="#measuretools">Measure</a></li><li><a href="#edit">Edit</a></li><li><a href="#selectiontools">Selection</a></li><li><a href="#print">Print</a></li><li><a href="#addlayer">Add layer</a></li><li><a href="#attributestable">Attributes table</a></li>
+                  <li><a href="#layerslist">Layers list</a></li><li><a href="#edit">Edit</a></li><li><a href="#geocoding">Geocoding</a></li><li><a href="#selectiontools">Selection</a></li><li><a href="#print">Print</a></li><li><a href="#addlayer">Add layer</a></li><li><a href="#attributestable">Attributes table</a></li><li><a href="#measuretools">Measure</a></li>
               	</ul>
   				</div>
 
@@ -77,44 +77,6 @@
 
 <p>Filters use the following syntax of the Filtrex library, as described <a href="https://github.com/joewalnes/filtrex#expressions">here.</a> Attribute names are used as variables. Attribute names are case-sensitive</p>
 
-<a name="geocoding"></a><h2>Geocoding</h2><p>The geocoding tools allows to search places by name and find them in the map.</p>
-
-<img src="help_geocoding.png"/>
-
-<p>To use it, enter the name to search in the search box and press Enter or click on the search button<p>.
-
-<p>A list of names containing the search text will be shown as links below the search box.</p>
-
-<img src="help_geocoding_results.png"/>
-
-<p>Click on a link to see the corresponding place in the map. The map wil be moved to the coordinates of the points, and a marker will be added to indicate its position.</p>
-
-<img src="help_geocoding_marker.png"/>
-<a name="measuretools"></a><h2>Measure</h2><p>MEasure tools are used to get area and distance measurements over the map canvas.</p>
-
-Two tools are available: Distance and Area.
-
-<img src="help_measuretools.png"/>
-
-<p>Select the distance tool to measure distances. Click on the map to set the points that define the line to measure.</p>
-
-<img src="help_measuretools_distance.png"/>
-
-<p>When you have finished defining the line, double-click to end.</p>
-
-<img src="help_measuretools_distance_finished.png"/>
-
-<p>Select the area tool to measure areas. Click on the map to set the points that define the polygon to measure.</p>
-
-<img src="help_measuretools_area.png"/>
-
-<p>When you have finished defining the line, double-click to end.</p>
-
-<img src="help_measuretools_area_finished.png"/>
-
-<p>To remove the lines and polygons created by the distance and are tools, select the <p>Remove measurements</p> menu.
-
-
 <a name="edit"></a><h2>Edit</h2><p>The edit component allows you to add new layers and features to the map. By clicking on the <i>Edit</i> menu, you will see the edit toolbar</p>
 
 <img src="help_edit_toolbar.png"/>
@@ -137,6 +99,19 @@ Clicking on the <i>Enable edit mode</i> button will set the edit tool. You can n
 
 <img src="help_edit_new_feature_attributes.png"/>
 
+<a name="geocoding"></a><h2>Geocoding</h2><p>The geocoding tools allows to search places by name and find them in the map.</p>
+
+<img src="help_geocoding.png"/>
+
+<p>To use it, enter the name to search in the search box and press Enter or click on the search button<p>.
+
+<p>A list of names containing the search text will be shown as links below the search box.</p>
+
+<img src="help_geocoding_results.png"/>
+
+<p>Click on a link to see the corresponding place in the map. The map wil be moved to the coordinates of the points, and a marker will be added to indicate its position.</p>
+
+<img src="help_geocoding_marker.png"/>
 <a name="selectiontools"></a><h2>Selection</h2><p>Selection tools are used to select features in the vector layers of the web app that allow selection. Two selection tools are available: Select by Polygon and Select by Rectangle</p>
 
 <p>If the <i>Select by Polygon</i> tool is active, you can click on the map canvas to define polygon vertices. Close the polygon by double-clicking. When the polygon is closed, all features in all selectable layers which are within the polygon will get selected. Previous selection, if it exist will be removed.</p>
@@ -188,6 +163,31 @@ Clicking on the <i>Enable edit mode</i> button will set the edit tool. You can n
 <p>The list of features in the table can be restricted by using a filter. To show only those features that contain a given string in any of their attributes, type the filter string in the filter box.</p>
 
 <img src="help_table_filter.png"/>
+
+<a name="measuretools"></a><h2>Measure</h2><p>MEasure tools are used to get area and distance measurements over the map canvas.</p>
+
+Two tools are available: Distance and Area.
+
+<img src="help_measuretools.png"/>
+
+<p>Select the distance tool to measure distances. Click on the map to set the points that define the line to measure.</p>
+
+<img src="help_measuretools_distance.png"/>
+
+<p>When you have finished defining the line, double-click to end.</p>
+
+<img src="help_measuretools_distance_finished.png"/>
+
+<p>Select the area tool to measure areas. Click on the map to set the points that define the polygon to measure.</p>
+
+<img src="help_measuretools_area.png"/>
+
+<p>When you have finished defining the line, double-click to end.</p>
+
+<img src="help_measuretools_area_finished.png"/>
+
+<p>To remove the lines and polygons created by the distance and are tools, select the <p>Remove measurements</p> menu.
+
 
 
 
