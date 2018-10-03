@@ -248,33 +248,6 @@ var categories_donggala_grading_copernicusrapidmapping = {"Damaged": [ new ol.st
                         allStyles.push.apply(allStyles, style);
                         return allStyles;
                     };
-
-                    var textStyleCache_sulawesi_fault_28={}
-                    var clusterStyleCache_sulawesi_fault_28={}
-                    var style_sulawesi_fault_28 = function(feature, resolution){
-                        
-                        var value = "";
-                        var style = [ new ol.style.Style({
-                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(221,39,148,1.0)"})})
-                        })
-                        ];
-                        var allStyles = [];
-                        
-                        allStyles.push.apply(allStyles, style);
-                        return allStyles;
-                    };
-                    var selectionStyle_sulawesi_fault_28 = function(feature, resolution){
-                        
-                        var value = "";
-                        var style = [ new ol.style.Style({
-                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})})
-                        })
-                        ]
-                        var allStyles = [];
-                        
-                        allStyles.push.apply(allStyles, style);
-                        return allStyles;
-                    };
 var categories_emsr317_5oti_2grading_map_v1_vectoremsr317_5oti_gra_v1_built_up_p = {"Damaged": [ new ol.style.Style({
                             image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255,245,240,1.0)"})})
                         })
@@ -1081,31 +1054,17 @@ var baseLayers = [new ol.layer.Tile({
                         title: 'No base layer'
                     }),new ol.layer.Tile({
     type: 'base',
-    title: 'Open topo map',
-    source: new ol.source.XYZ({
-        url: 'http://s.tile.opentopomap.org/{z}/{x}/{y}.png',
-        attributions: [new ol.Attribution({ html: ['Map data: &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)']
-        })]
-    }),
-    projection: 'EPSG:3857'
-})
-
-,new ol.layer.Tile({
-    type: 'base',
-    title: 'ESRI world shaded relief',
-    source: new ol.source.XYZ({
-        attributions: [new ol.Attribution({ html:['Tiles &copy; Esri &mdash; Source: Esri']})],
-        url: 'http://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}'
-    }),
-    projection: 'EPSG:3857'
-})
-,new ol.layer.Tile({
-    type: 'base',
     title: 'ESRI world street map',
     source: new ol.source.XYZ({
         attributions: [new ol.Attribution({ html:['Tiles &copy; <a href="http://services.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer">ArcGIS</a>']})],
         url: 'http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}'
     }),
+    projection: 'EPSG:3857'
+})
+,new ol.layer.Tile({
+    type: 'base',
+    title: 'OSM Mapnik',
+    source: new ol.source.OSM(),
     projection: 'EPSG:3857'
 })
 ];var baseLayersGroup = new ol.layer.Group({showContent: true,'type':
@@ -1150,22 +1109,6 @@ var lyr_donggala_grading_copernicusrapidmapping = new ol.layer.Vector({
                 });
 donggala_grading_copernicusrapidmapping_geojson_callback = function(geojson) {
                               lyr_donggala_grading_copernicusrapidmapping.getSource().addFeatures(new ol.format.GeoJSON().readFeatures(geojson));
-                        };
-var lyr_sulawesi_fault_28 = new ol.layer.Vector({
-                    opacity: 1.0,
-                    source: new ol.source.Vector(),
-                     
-                    style: style_sulawesi_fault_28,
-                    selectedStyle: selectionStyle_sulawesi_fault_28,
-                    title: "sulawesi_Fault_2008",
-                    id: "sulawesi_static20181002220947543",
-                    filters: [],
-                    timeInfo: null,
-                    isSelectable: true,
-                    popupInfo: ""
-                });
-sulawesi_fault_28_geojson_callback = function(geojson) {
-                              lyr_sulawesi_fault_28.getSource().addFeatures(new ol.format.GeoJSON().readFeatures(geojson));
                         };
 var lyr_emsr317_5oti_2grading_map_v1_vectoremsr317_5oti_gra_v1_built_up_p = new ol.layer.Vector({
                     opacity: 1.0,
@@ -1570,7 +1513,6 @@ port_geojson_callback = function(geojson) {
 
 lyr_accessibilitytocitiespalu7.setVisible(true);
 lyr_donggala_grading_copernicusrapidmapping.setVisible(true);
-lyr_sulawesi_fault_28.setVisible(true);
 lyr_emsr317_5oti_2grading_map_v1_vectoremsr317_5oti_gra_v1_built_up_p.setVisible(true);
 lyr_ghec_fault.setVisible(true);
 lyr_volcano_indonesiasumatra.setVisible(true);
@@ -1596,9 +1538,9 @@ lyr_emsr317_2lende_2grading_map_v1_vectoremsr317_2lende_gra_v1_built_up_p.setVis
 lyr_emsr317_1pelabuhan_2grading_map_v1_vectoremsr317_1pelabuhan_gra_v1_built_up_p.setVisible(true);
 lyr_emsr317_3tompe_2grading_map_v1_vectoremsr317_3tompe_gra_v1_built_up_p.setVisible(true);
 lyr_port.setVisible(true);for (var i=0;i<baseLayers.length;i++){baseLayers[i].setVisible(false);}baseLayers[1].setVisible(true);
-var layersList = [lyr_accessibilitytocitiespalu7,lyr_donggala_grading_copernicusrapidmapping,lyr_sulawesi_fault_28,lyr_emsr317_5oti_2grading_map_v1_vectoremsr317_5oti_gra_v1_built_up_p,lyr_ghec_fault,lyr_volcano_indonesiasumatra,lyr_volcano_indonesiasulawesi,lyr_saputan_ashcloudsaputan_ashcloudlinestring,lyr_volcano_indonesiasangiheislands,lyr_volcano_indonesialessersundaislands,lyr_volcano_mount_supotan,lyr_volcano_indonesiakrakatau,lyr_volcano_indonesiajava,lyr_volcano_indonesiahalmahera,lyr_volcano_indonesiabandasea,lyr_volcano_indonesiaandamanislands,lyr_ghec_gem_activity,lyr_paluwest_grading_copernicusrapidmapping,lyr_palueast_grading_copernicusrapidmapping,lyr_safeareafortemporaryresettlement,lyr_geojson_gdacsgeojson_gdacspoint,lyr_firstresponder,lyr_palu_grading_copernicusrapidmapping,lyr_emsr317_1lombonga_2grading_map_v1_vectoremsr317_1lombonga_gra_v1_built_up_p,lyr_emsr317_2lende_2grading_map_v1_vectoremsr317_2lende_gra_v1_built_up_p,lyr_emsr317_1pelabuhan_2grading_map_v1_vectoremsr317_1pelabuhan_gra_v1_built_up_p,lyr_emsr317_3tompe_2grading_map_v1_vectoremsr317_3tompe_gra_v1_built_up_p,lyr_port];layersList.unshift(baseLayersGroup);layersList.push(overlaysGroup);
+var layersList = [lyr_accessibilitytocitiespalu7,lyr_donggala_grading_copernicusrapidmapping,lyr_emsr317_5oti_2grading_map_v1_vectoremsr317_5oti_gra_v1_built_up_p,lyr_ghec_fault,lyr_volcano_indonesiasumatra,lyr_volcano_indonesiasulawesi,lyr_saputan_ashcloudsaputan_ashcloudlinestring,lyr_volcano_indonesiasangiheislands,lyr_volcano_indonesialessersundaislands,lyr_volcano_mount_supotan,lyr_volcano_indonesiakrakatau,lyr_volcano_indonesiajava,lyr_volcano_indonesiahalmahera,lyr_volcano_indonesiabandasea,lyr_volcano_indonesiaandamanislands,lyr_ghec_gem_activity,lyr_paluwest_grading_copernicusrapidmapping,lyr_palueast_grading_copernicusrapidmapping,lyr_safeareafortemporaryresettlement,lyr_geojson_gdacsgeojson_gdacspoint,lyr_firstresponder,lyr_palu_grading_copernicusrapidmapping,lyr_emsr317_1lombonga_2grading_map_v1_vectoremsr317_1lombonga_gra_v1_built_up_p,lyr_emsr317_2lende_2grading_map_v1_vectoremsr317_2lende_gra_v1_built_up_p,lyr_emsr317_1pelabuhan_2grading_map_v1_vectoremsr317_1pelabuhan_gra_v1_built_up_p,lyr_emsr317_3tompe_2grading_map_v1_vectoremsr317_3tompe_gra_v1_built_up_p,lyr_port];layersList.unshift(baseLayersGroup);layersList.push(overlaysGroup);
 var printLayouts = [];
-var legendData = {"Indonesia_Halmahera20181003121028878": [{"href": "13_0.png", "title": ""}], "FirstResponder20181002071112231": [{"href": "21_0.png", "title": ""}], "Indonesia_Sulawesi20181003121028986": [{"href": "6_0.png", "title": ""}], "DONGGALA_Grading_CopernicusRapidMapping20181001180912604": [{"href": "1_0.png", "title": "Damaged"}, {"href": "1_1.png", "title": "Destroyed"}], "Indonesia_Sangihe_Islands20181003121028973": [{"href": "8_0.png", "title": ""}], "EMSR317_10PELABUHAN_02GRADING_MAP_v1_vector_EMSR317_10PELABUHAN_GRA_v1_built_up_p20181002205353002": [{"href": "25_0.png", "title": "Damaged"}, {"href": "25_1.png", "title": "Destroyed"}], "Saputan_AshCloud_Saputan_AshCloud_LineString20181003141142276": [{"href": "7_0.png", "title": ""}], "GHEC_GEM_activity20181003104917683": [{"href": "16_0.png", "title": ""}], "GHEC_fault20181003104825090": [{"href": "4_0.png", "title": ""}], "Indonesia_Lesser_Sunda_Islands20181003121028932": [{"href": "9_0.png", "title": ""}], "PALUEAST_Grading_CopernicusRapidMapping20181001180247354": [{"href": "18_0.png", "title": "Damaged"}, {"href": "18_1.png", "title": "Destroyed"}], "Port20181002210754462": [{"href": "27_0.png", "title": ""}], "EMSR317_01LOMBONGA_02GRADING_MAP_v1_vector_EMSR317_01LOMBONGA_GRA_v1_built_up_p20181002205347756": [{"href": "23_0.png", "title": "Damaged"}, {"href": "23_1.png", "title": "Destroyed"}], "Indonesia_Java20181003121028896": [{"href": "12_0.png", "title": ""}], "Untitled_layer20181003121430785": [{"href": "10_0.png", "title": ""}], "Indonesia_Sumatra20181003121028997": [{"href": "5_0.png", "title": ""}], "Indonesia_Krakatau20181003121028910": [{"href": "11_0.png", "title": ""}], "polygons_3_polygons_3_Polygon20181002071118040": [{"href": "19_0.png", "title": ""}], "Indonesia_Banda_Sea20181003121028787": [{"href": "14_0.png", "title": ""}], "EMSR317_05OTI_02GRADING_MAP_v1_vector_EMSR317_05OTI_GRA_v1_built_up_p20181003091108559": [{"href": "3_0.png", "title": "Damaged"}, {"href": "3_1.png", "title": "Destroyed"}, {"href": "3_2.png", "title": "Possibly damaged"}], "geojson_gdacs_geojson_gdacs_Point20181002071122802": [{"href": "20_0.png", "title": ""}], "PALUWEST_Grading_CopernicusRapidMapping20181001180806467": [{"href": "17_0.png", "title": "Damaged"}, {"href": "17_1.png", "title": "Destroyed"}], "sulawesi_static20181002220947543": [{"href": "2_0.png", "title": ""}], "accessibilitytocitiespalu720181002064012068": [{"href": "0_0.png", "title": "0"}, {"href": "0_1.png", "title": "116"}, {"href": "0_2.png", "title": "12"}, {"href": "0_3.png", "title": "134"}, {"href": "0_4.png", "title": "155"}, {"href": "0_5.png", "title": "182"}, {"href": "0_6.png", "title": "2"}, {"href": "0_7.png", "title": "204"}, {"href": "0_8.png", "title": "207"}, {"href": "0_9.png", "title": "225"}, {"href": "0_10.png", "title": "226"}, {"href": "0_11.png", "title": "242"}, {"href": "0_12.png", "title": "25"}, {"href": "0_13.png", "title": "4"}, {"href": "0_14.png", "title": "42"}, {"href": "0_15.png", "title": "63"}, {"href": "0_16.png", "title": "95"}, {"href": "0_17.png", "title": ""}], "Indonesia_Andaman_Islands20181003121028738": [{"href": "15_0.png", "title": ""}], "EMSR317_02LENDE_02GRADING_MAP_v1_vector_EMSR317_02LENDE_GRA_v1_built_up_p20181002205350685": [{"href": "24_0.png", "title": "Damaged"}, {"href": "24_1.png", "title": "Destroyed"}], "PALU_Grading_CopernicusRapidMapping20181001180027272": [{"href": "22_0.png", "title": "Damaged"}, {"href": "22_1.png", "title": "Destroyed"}], "EMSR317_03TOMPE_02GRADING_MAP_v1_vector_EMSR317_03TOMPE_GRA_v1_built_up_p20181002205358465": [{"href": "26_0.png", "title": "Damaged"}, {"href": "26_1.png", "title": "Destroyed"}]};
+var legendData = {"Indonesia_Halmahera20181003121028878": [{"href": "12_0.png", "title": ""}], "FirstResponder20181002071112231": [{"href": "20_0.png", "title": ""}], "Indonesia_Sulawesi20181003121028986": [{"href": "5_0.png", "title": ""}], "DONGGALA_Grading_CopernicusRapidMapping20181001180912604": [{"href": "1_0.png", "title": "Damaged"}, {"href": "1_1.png", "title": "Destroyed"}], "Indonesia_Sangihe_Islands20181003121028973": [{"href": "7_0.png", "title": ""}], "EMSR317_10PELABUHAN_02GRADING_MAP_v1_vector_EMSR317_10PELABUHAN_GRA_v1_built_up_p20181002205353002": [{"href": "24_0.png", "title": "Damaged"}, {"href": "24_1.png", "title": "Destroyed"}], "Saputan_AshCloud_Saputan_AshCloud_LineString20181003141142276": [{"href": "6_0.png", "title": ""}], "GHEC_GEM_activity20181003104917683": [{"href": "15_0.png", "title": ""}], "GHEC_fault20181003104825090": [{"href": "3_0.png", "title": ""}], "Indonesia_Lesser_Sunda_Islands20181003121028932": [{"href": "8_0.png", "title": ""}], "PALUEAST_Grading_CopernicusRapidMapping20181001180247354": [{"href": "17_0.png", "title": "Damaged"}, {"href": "17_1.png", "title": "Destroyed"}], "Port20181002210754462": [{"href": "26_0.png", "title": ""}], "EMSR317_01LOMBONGA_02GRADING_MAP_v1_vector_EMSR317_01LOMBONGA_GRA_v1_built_up_p20181002205347756": [{"href": "22_0.png", "title": "Damaged"}, {"href": "22_1.png", "title": "Destroyed"}], "Indonesia_Java20181003121028896": [{"href": "11_0.png", "title": ""}], "Untitled_layer20181003121430785": [{"href": "9_0.png", "title": ""}], "Indonesia_Sumatra20181003121028997": [{"href": "4_0.png", "title": ""}], "Indonesia_Krakatau20181003121028910": [{"href": "10_0.png", "title": ""}], "polygons_3_polygons_3_Polygon20181002071118040": [{"href": "18_0.png", "title": ""}], "Indonesia_Banda_Sea20181003121028787": [{"href": "13_0.png", "title": ""}], "EMSR317_05OTI_02GRADING_MAP_v1_vector_EMSR317_05OTI_GRA_v1_built_up_p20181003091108559": [{"href": "2_0.png", "title": "Damaged"}, {"href": "2_1.png", "title": "Destroyed"}, {"href": "2_2.png", "title": "Possibly damaged"}], "geojson_gdacs_geojson_gdacs_Point20181002071122802": [{"href": "19_0.png", "title": ""}], "PALUWEST_Grading_CopernicusRapidMapping20181001180806467": [{"href": "16_0.png", "title": "Damaged"}, {"href": "16_1.png", "title": "Destroyed"}], "accessibilitytocitiespalu720181002064012068": [{"href": "0_0.png", "title": "0"}, {"href": "0_1.png", "title": "116"}, {"href": "0_2.png", "title": "12"}, {"href": "0_3.png", "title": "134"}, {"href": "0_4.png", "title": "155"}, {"href": "0_5.png", "title": "182"}, {"href": "0_6.png", "title": "2"}, {"href": "0_7.png", "title": "204"}, {"href": "0_8.png", "title": "207"}, {"href": "0_9.png", "title": "225"}, {"href": "0_10.png", "title": "226"}, {"href": "0_11.png", "title": "242"}, {"href": "0_12.png", "title": "25"}, {"href": "0_13.png", "title": "4"}, {"href": "0_14.png", "title": "42"}, {"href": "0_15.png", "title": "63"}, {"href": "0_16.png", "title": "95"}, {"href": "0_17.png", "title": ""}], "Indonesia_Andaman_Islands20181003121028738": [{"href": "14_0.png", "title": ""}], "EMSR317_02LENDE_02GRADING_MAP_v1_vector_EMSR317_02LENDE_GRA_v1_built_up_p20181002205350685": [{"href": "23_0.png", "title": "Damaged"}, {"href": "23_1.png", "title": "Destroyed"}], "PALU_Grading_CopernicusRapidMapping20181001180027272": [{"href": "21_0.png", "title": "Damaged"}, {"href": "21_1.png", "title": "Destroyed"}], "EMSR317_03TOMPE_02GRADING_MAP_v1_vector_EMSR317_03TOMPE_GRA_v1_built_up_p20181002205358465": [{"href": "25_0.png", "title": "Damaged"}, {"href": "25_1.png", "title": "Destroyed"}]};
 var view = new ol.View({ maxZoom: 32, minZoom: 1, projection: 'EPSG:3857'});
 var originalExtent = [13136813.972170, -169096.726048, 13455430.098445, 168519.444455];
 
@@ -1607,8 +1549,8 @@ var map = new ol.Map({
   view: view,
   controls: [new ol.control.FullScreen(),
 new ol.control.Attribution(),
-new ol.control.ScaleLine({"minWidth": 64, "units": "metric"}),
-new ol.control.Rotate({autoHide: false})]
+new ol.control.Rotate({autoHide: false}),
+new ol.control.ScaleLine({"minWidth": 64, "units": "metric"})]
 });
 
 
@@ -1656,7 +1598,7 @@ var BasicApp = React.createClass({
                                 exclude: true},
 {text: 'Table', icon: 'list-alt', onClick: this._toggleTable.bind(this)},
 {text: 'Query', icon: 'filter', onClick: this._toggleQuery.bind(this)},
-{jsx: React.createElement(Measure, {toggleGroup:'navigation', map:map})},
+{text: 'Help', icon: 'help', onClick: function(){window.open('help/help.html','_blank')}},
 {jsx: React.createElement(DD.Dropdown, {title:"Links"},
                                         
                                     )},
@@ -1671,7 +1613,7 @@ var BasicApp = React.createClass({
                             },
 {jsx: React.createElement(QGISPrint, {map:map, layouts:printLayouts, thumbnailPath: './resources/print/',})},
 {jsx: React.createElement(AddLayer, {map:map})},
-{text: 'Help', icon: 'help', onClick: function(){window.open('help/help.html','_blank')}},
+{jsx: React.createElement(Measure, {toggleGroup:'navigation', map:map})},
 {exclude: true, jsx: React.createElement("a", {className:"navbar-brand", href:"#"}, "My Web App")}];
     return React.createElement("article", null,
       React.createElement(Toolbar, {options: options}
