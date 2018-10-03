@@ -318,6 +318,60 @@ var categories_emsr317_5oti_2grading_map_v1_vectoremsr317_5oti_gra_v1_built_up_p
                         allStyles.push.apply(allStyles, style);
                         return allStyles;
                     };
+
+                    var textStyleCache_ghec_fault={}
+                    var clusterStyleCache_ghec_fault={}
+                    var style_ghec_fault = function(feature, resolution){
+                        
+                        var value = "";
+                        var style = [ new ol.style.Style({
+                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(206,236,124,1.0)"})})
+                        })
+                        ];
+                        var allStyles = [];
+                        
+                        allStyles.push.apply(allStyles, style);
+                        return allStyles;
+                    };
+                    var selectionStyle_ghec_fault = function(feature, resolution){
+                        
+                        var value = "";
+                        var style = [ new ol.style.Style({
+                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})})
+                        })
+                        ]
+                        var allStyles = [];
+                        
+                        allStyles.push.apply(allStyles, style);
+                        return allStyles;
+                    };
+
+                    var textStyleCache_ghec_gem_activity={}
+                    var clusterStyleCache_ghec_gem_activity={}
+                    var style_ghec_gem_activity = function(feature, resolution){
+                        
+                        var value = "";
+                        var style = [ new ol.style.Style({
+                            stroke: new ol.style.Stroke({color: "rgba(100,154,129,1.0)", lineDash: null, width: 0})
+                        })
+                        ];
+                        var allStyles = [];
+                        
+                        allStyles.push.apply(allStyles, style);
+                        return allStyles;
+                    };
+                    var selectionStyle_ghec_gem_activity = function(feature, resolution){
+                        
+                        var value = "";
+                        var style = [ new ol.style.Style({
+                            stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0})
+                        })
+                        ]
+                        var allStyles = [];
+                        
+                        allStyles.push.apply(allStyles, style);
+                        return allStyles;
+                    };
 var categories_paluwest_grading_copernicusrapidmapping = {"Damaged": [ new ol.style.Style({
                             image: new ol.style.RegularShape({points: 5, radius: 5.7, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255,245,240,1.0)"}), angle: 0})
                         })
@@ -684,55 +738,16 @@ var baseLayers = [new ol.layer.Tile({
                         title: 'No base layer'
                     }),new ol.layer.Tile({
     type: 'base',
-    title: 'Stamen watercolor',
-    source: new ol.source.Stamen({layer: 'watercolor'}),
+    title: 'OSM Mapnik',
+    source: new ol.source.OSM(),
     projection: 'EPSG:3857'
 })
 ,new ol.layer.Tile({
     type: 'base',
-    title: 'ESRI world shaded relief',
+    title: 'ESRI world imagery',
     source: new ol.source.XYZ({
-        attributions: [new ol.Attribution({ html:['Tiles &copy; Esri &mdash; Source: Esri']})],
-        url: 'http://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}'
-    }),
-    projection: 'EPSG:3857'
-})
-,new ol.layer.Tile({
-    type: 'base',
-    title: 'MapQuest aerial',
-    source: new ol.source.MapQuest({layer: 'sat'})
-})
-,new ol.layer.Tile({
-    type: 'base',
-    title: 'Stamen toner',
-    source: new ol.source.Stamen({layer: 'toner'}),
-    projection: 'EPSG:3857'
-})
-,new ol.layer.Tile({
-    type: 'base',
-    title: 'CartoDB dark without labels',
-    source: new ol.source.XYZ({
-        url: 'http://s.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}.png',
-        attributions: [new ol.Attribution({ html: ['&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>']
-        })]
-    }),
-    projection: 'EPSG:3857'
-})
-,new ol.layer.Tile({
-    type: 'base',
-    title: 'ESRI DeLorme world map',
-    source: new ol.source.XYZ({
-        attributions: [new ol.Attribution({ html:['Tiles &copy; Esri &mdash; Copyright: &copy;2012 DeLorme']})],
-        url: 'http://server.arcgisonline.com/ArcGIS/rest/services/Specialty/DeLorme_World_Base_Map/MapServer/tile/{z}/{y}/{x}'
-    }),
-    projection: 'EPSG:3857'
-})
-,new ol.layer.Tile({
-    type: 'base',
-    title: 'ESRI world street map',
-    source: new ol.source.XYZ({
-        attributions: [new ol.Attribution({ html:['Tiles &copy; <a href="http://services.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer">ArcGIS</a>']})],
-        url: 'http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}'
+        attributions: [new ol.Attribution({ html:['Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community']})],
+        url: 'http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'
     }),
     projection: 'EPSG:3857'
 })
@@ -742,71 +757,6 @@ var baseLayers = [new ol.layer.Tile({
     source: new ol.source.XYZ({
         attributions: [new ol.Attribution({ html:['Tiles &copy; <a href="http://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer">ArcGIS</a>']})],
         url: 'http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}'
-    }),
-    projection: 'EPSG:3857'
-})
-,new ol.layer.Tile({
-    type: 'base',
-    title: 'MapQuest roads',
-    source: new ol.source.MapQuest({layer: 'osm'}),
-    projection: 'EPSG:3857'
-})
-,new ol.layer.Tile({
-    type: 'base',
-    title: 'CartoDB light',
-    source: new ol.source.XYZ({
-        url: 'http://s.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png',
-        attributions: [new ol.Attribution({ html: ['&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>']
-        })]
-    }),
-    projection: 'EPSG:3857'
-})
-,new ol.layer.Tile({
-    type: 'base',
-    title: 'Stamen toner lite',
-    source: new ol.source.Stamen({layer: 'toner-lite'}),
-    projection: 'EPSG:3857'
-})
-,new ol.layer.Tile({
-    type: 'base',
-    title: 'ESRI NatGeo world map',
-    source: new ol.source.XYZ({
-        attributions: [new ol.Attribution({ html:['Tiles &copy; Esri &mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC']})],
-        url: 'http://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}'
-    }),
-    projection: 'EPSG:3857'
-}),new ol.layer.Tile({
-    type: 'base',
-    title: 'ESRI world terrain',
-    source: new ol.source.XYZ({
-        attributions: [new ol.Attribution({ html:['Tiles &copy; Esri &mdash; Source: USGS, Esri, TANA, DeLorme, and NPS']})],
-        url: 'http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer/tile/{z}/{y}/{x}'
-    }),
-    projection: 'EPSG:3857'
-})
-
-,new ol.layer.Tile({
-    type: 'base',
-    title: 'OSM Mapnik',
-    source: new ol.source.OSM(),
-    projection: 'EPSG:3857'
-})
-,new ol.layer.Tile({
-    type: 'base',
-    title: 'CartoDB dark',
-    source: new ol.source.XYZ({
-        url: 'http://s.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png',
-        attributions: [new ol.Attribution({ html: ['&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>']
-        })]
-    }),
-    projection: 'EPSG:3857'
-})
-,new ol.layer.Tile({
-    type: 'base',
-    title: 'ESRI world imagery',
-    source: new ol.source.XYZ({
-        attributions: [new ol.Attribution({ html:['Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community']})],
-        url: 'http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'
     }),
     projection: 'EPSG:3857'
 })
@@ -823,11 +773,15 @@ var baseLayers = [new ol.layer.Tile({
 
 ,new ol.layer.Tile({
     type: 'base',
-    title: 'CartoDB light without labels',
+    title: 'MapQuest aerial',
+    source: new ol.source.MapQuest({layer: 'sat'})
+})
+,new ol.layer.Tile({
+    type: 'base',
+    title: 'ESRI world street map',
     source: new ol.source.XYZ({
-        url: 'http://s.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png',
-        attributions: [new ol.Attribution({ html: ['&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>']
-        })]
+        attributions: [new ol.Attribution({ html:['Tiles &copy; <a href="http://services.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer">ArcGIS</a>']})],
+        url: 'http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}'
     }),
     projection: 'EPSG:3857'
 })
@@ -905,6 +859,38 @@ var lyr_emsr317_5oti_2grading_map_v1_vectoremsr317_5oti_gra_v1_built_up_p = new 
                 });
 emsr317_5oti_2grading_map_v1_vectoremsr317_5oti_gra_v1_built_up_p_geojson_callback = function(geojson) {
                               lyr_emsr317_5oti_2grading_map_v1_vectoremsr317_5oti_gra_v1_built_up_p.getSource().addFeatures(new ol.format.GeoJSON().readFeatures(geojson));
+                        };
+var lyr_ghec_fault = new ol.layer.Vector({
+                    opacity: 1.0,
+                    source: new ol.source.Vector(),
+                     
+                    style: style_ghec_fault,
+                    selectedStyle: selectionStyle_ghec_fault,
+                    title: "GHEC_fault",
+                    id: "GHEC_fault20181003104825090",
+                    filters: [],
+                    timeInfo: null,
+                    isSelectable: true,
+                    popupInfo: ""
+                });
+ghec_fault_geojson_callback = function(geojson) {
+                              lyr_ghec_fault.getSource().addFeatures(new ol.format.GeoJSON().readFeatures(geojson));
+                        };
+var lyr_ghec_gem_activity = new ol.layer.Vector({
+                    opacity: 1.0,
+                    source: new ol.source.Vector(),
+                     
+                    style: style_ghec_gem_activity,
+                    selectedStyle: selectionStyle_ghec_gem_activity,
+                    title: "GHEC_GEM_activity",
+                    id: "GHEC_GEM_activity20181003104917683",
+                    filters: [],
+                    timeInfo: null,
+                    isSelectable: true,
+                    popupInfo: ""
+                });
+ghec_gem_activity_geojson_callback = function(geojson) {
+                              lyr_ghec_gem_activity.getSource().addFeatures(new ol.format.GeoJSON().readFeatures(geojson));
                         };
 var lyr_paluwest_grading_copernicusrapidmapping = new ol.layer.Vector({
                     opacity: 1.0,
@@ -1087,6 +1073,8 @@ lyr_accessibilitytocitiespalu7.setVisible(true);
 lyr_donggala_grading_copernicusrapidmapping.setVisible(true);
 lyr_sulawesi_fault_28.setVisible(true);
 lyr_emsr317_5oti_2grading_map_v1_vectoremsr317_5oti_gra_v1_built_up_p.setVisible(true);
+lyr_ghec_fault.setVisible(true);
+lyr_ghec_gem_activity.setVisible(true);
 lyr_paluwest_grading_copernicusrapidmapping.setVisible(true);
 lyr_palueast_grading_copernicusrapidmapping.setVisible(true);
 lyr_safeareafortemporaryresettlement.setVisible(true);
@@ -1098,11 +1086,11 @@ lyr_emsr317_2lende_2grading_map_v1_vectoremsr317_2lende_gra_v1_built_up_p.setVis
 lyr_emsr317_1pelabuhan_2grading_map_v1_vectoremsr317_1pelabuhan_gra_v1_built_up_p.setVisible(true);
 lyr_emsr317_3tompe_2grading_map_v1_vectoremsr317_3tompe_gra_v1_built_up_p.setVisible(true);
 lyr_port.setVisible(true);for (var i=0;i<baseLayers.length;i++){baseLayers[i].setVisible(false);}baseLayers[1].setVisible(true);
-var layersList = [lyr_accessibilitytocitiespalu7,lyr_donggala_grading_copernicusrapidmapping,lyr_sulawesi_fault_28,lyr_emsr317_5oti_2grading_map_v1_vectoremsr317_5oti_gra_v1_built_up_p,lyr_paluwest_grading_copernicusrapidmapping,lyr_palueast_grading_copernicusrapidmapping,lyr_safeareafortemporaryresettlement,lyr_geojson_gdacsgeojson_gdacspoint,lyr_firstresponder,lyr_palu_grading_copernicusrapidmapping,lyr_emsr317_1lombonga_2grading_map_v1_vectoremsr317_1lombonga_gra_v1_built_up_p,lyr_emsr317_2lende_2grading_map_v1_vectoremsr317_2lende_gra_v1_built_up_p,lyr_emsr317_1pelabuhan_2grading_map_v1_vectoremsr317_1pelabuhan_gra_v1_built_up_p,lyr_emsr317_3tompe_2grading_map_v1_vectoremsr317_3tompe_gra_v1_built_up_p,lyr_port];layersList.unshift(baseLayersGroup);layersList.push(overlaysGroup);
+var layersList = [lyr_accessibilitytocitiespalu7,lyr_donggala_grading_copernicusrapidmapping,lyr_sulawesi_fault_28,lyr_emsr317_5oti_2grading_map_v1_vectoremsr317_5oti_gra_v1_built_up_p,lyr_ghec_fault,lyr_ghec_gem_activity,lyr_paluwest_grading_copernicusrapidmapping,lyr_palueast_grading_copernicusrapidmapping,lyr_safeareafortemporaryresettlement,lyr_geojson_gdacsgeojson_gdacspoint,lyr_firstresponder,lyr_palu_grading_copernicusrapidmapping,lyr_emsr317_1lombonga_2grading_map_v1_vectoremsr317_1lombonga_gra_v1_built_up_p,lyr_emsr317_2lende_2grading_map_v1_vectoremsr317_2lende_gra_v1_built_up_p,lyr_emsr317_1pelabuhan_2grading_map_v1_vectoremsr317_1pelabuhan_gra_v1_built_up_p,lyr_emsr317_3tompe_2grading_map_v1_vectoremsr317_3tompe_gra_v1_built_up_p,lyr_port];layersList.unshift(baseLayersGroup);layersList.push(overlaysGroup);
 var printLayouts = [];
-var legendData = {"Port20181002210754462": [{"href": "14_0.png", "title": ""}], "PALUWEST_Grading_CopernicusRapidMapping20181001180806467": [{"href": "4_0.png", "title": "Damaged"}, {"href": "4_1.png", "title": "Destroyed"}], "FirstResponder20181002071112231": [{"href": "8_0.png", "title": ""}], "DONGGALA_Grading_CopernicusRapidMapping20181001180912604": [{"href": "1_0.png", "title": "Damaged"}, {"href": "1_1.png", "title": "Destroyed"}], "sulawesi_static20181002220947543": [{"href": "2_0.png", "title": ""}], "accessibilitytocitiespalu720181002064012068": [{"href": "0_0.png", "title": "0"}, {"href": "0_1.png", "title": "116"}, {"href": "0_2.png", "title": "12"}, {"href": "0_3.png", "title": "134"}, {"href": "0_4.png", "title": "155"}, {"href": "0_5.png", "title": "182"}, {"href": "0_6.png", "title": "2"}, {"href": "0_7.png", "title": "204"}, {"href": "0_8.png", "title": "207"}, {"href": "0_9.png", "title": "225"}, {"href": "0_10.png", "title": "226"}, {"href": "0_11.png", "title": "242"}, {"href": "0_12.png", "title": "25"}, {"href": "0_13.png", "title": "4"}, {"href": "0_14.png", "title": "42"}, {"href": "0_15.png", "title": "63"}, {"href": "0_16.png", "title": "95"}, {"href": "0_17.png", "title": ""}], "EMSR317_03TOMPE_02GRADING_MAP_v1_vector_EMSR317_03TOMPE_GRA_v1_built_up_p20181002205358465": [{"href": "13_0.png", "title": "Damaged"}, {"href": "13_1.png", "title": "Destroyed"}], "EMSR317_10PELABUHAN_02GRADING_MAP_v1_vector_EMSR317_10PELABUHAN_GRA_v1_built_up_p20181002205353002": [{"href": "12_0.png", "title": "Damaged"}, {"href": "12_1.png", "title": "Destroyed"}], "polygons_3_polygons_3_Polygon20181002071118040": [{"href": "6_0.png", "title": ""}], "EMSR317_02LENDE_02GRADING_MAP_v1_vector_EMSR317_02LENDE_GRA_v1_built_up_p20181002205350685": [{"href": "11_0.png", "title": "Damaged"}, {"href": "11_1.png", "title": "Destroyed"}], "PALU_Grading_CopernicusRapidMapping20181001180027272": [{"href": "9_0.png", "title": "Damaged"}, {"href": "9_1.png", "title": "Destroyed"}], "EMSR317_01LOMBONGA_02GRADING_MAP_v1_vector_EMSR317_01LOMBONGA_GRA_v1_built_up_p20181002205347756": [{"href": "10_0.png", "title": "Damaged"}, {"href": "10_1.png", "title": "Destroyed"}], "EMSR317_05OTI_02GRADING_MAP_v1_vector_EMSR317_05OTI_GRA_v1_built_up_p20181003091108559": [{"href": "3_0.png", "title": "Damaged"}, {"href": "3_1.png", "title": "Destroyed"}, {"href": "3_2.png", "title": "Possibly damaged"}], "PALUEAST_Grading_CopernicusRapidMapping20181001180247354": [{"href": "5_0.png", "title": "Damaged"}, {"href": "5_1.png", "title": "Destroyed"}], "geojson_gdacs_geojson_gdacs_Point20181002071122802": [{"href": "7_0.png", "title": ""}]};
+var legendData = {"EMSR317_05OTI_02GRADING_MAP_v1_vector_EMSR317_05OTI_GRA_v1_built_up_p20181003091108559": [{"href": "3_0.png", "title": "Damaged"}, {"href": "3_1.png", "title": "Destroyed"}, {"href": "3_2.png", "title": "Possibly damaged"}], "Port20181002210754462": [{"href": "16_0.png", "title": ""}], "PALUWEST_Grading_CopernicusRapidMapping20181001180806467": [{"href": "6_0.png", "title": "Damaged"}, {"href": "6_1.png", "title": "Destroyed"}], "FirstResponder20181002071112231": [{"href": "10_0.png", "title": ""}], "PALU_Grading_CopernicusRapidMapping20181001180027272": [{"href": "11_0.png", "title": "Damaged"}, {"href": "11_1.png", "title": "Destroyed"}], "DONGGALA_Grading_CopernicusRapidMapping20181001180912604": [{"href": "1_0.png", "title": "Damaged"}, {"href": "1_1.png", "title": "Destroyed"}], "sulawesi_static20181002220947543": [{"href": "2_0.png", "title": ""}], "accessibilitytocitiespalu720181002064012068": [{"href": "0_0.png", "title": "0"}, {"href": "0_1.png", "title": "116"}, {"href": "0_2.png", "title": "12"}, {"href": "0_3.png", "title": "134"}, {"href": "0_4.png", "title": "155"}, {"href": "0_5.png", "title": "182"}, {"href": "0_6.png", "title": "2"}, {"href": "0_7.png", "title": "204"}, {"href": "0_8.png", "title": "207"}, {"href": "0_9.png", "title": "225"}, {"href": "0_10.png", "title": "226"}, {"href": "0_11.png", "title": "242"}, {"href": "0_12.png", "title": "25"}, {"href": "0_13.png", "title": "4"}, {"href": "0_14.png", "title": "42"}, {"href": "0_15.png", "title": "63"}, {"href": "0_16.png", "title": "95"}, {"href": "0_17.png", "title": ""}], "EMSR317_03TOMPE_02GRADING_MAP_v1_vector_EMSR317_03TOMPE_GRA_v1_built_up_p20181002205358465": [{"href": "15_0.png", "title": "Damaged"}, {"href": "15_1.png", "title": "Destroyed"}], "EMSR317_10PELABUHAN_02GRADING_MAP_v1_vector_EMSR317_10PELABUHAN_GRA_v1_built_up_p20181002205353002": [{"href": "14_0.png", "title": "Damaged"}, {"href": "14_1.png", "title": "Destroyed"}], "polygons_3_polygons_3_Polygon20181002071118040": [{"href": "8_0.png", "title": ""}], "EMSR317_02LENDE_02GRADING_MAP_v1_vector_EMSR317_02LENDE_GRA_v1_built_up_p20181002205350685": [{"href": "13_0.png", "title": "Damaged"}, {"href": "13_1.png", "title": "Destroyed"}], "GHEC_GEM_activity20181003104917683": [{"href": "5_0.png", "title": ""}], "EMSR317_01LOMBONGA_02GRADING_MAP_v1_vector_EMSR317_01LOMBONGA_GRA_v1_built_up_p20181002205347756": [{"href": "12_0.png", "title": "Damaged"}, {"href": "12_1.png", "title": "Destroyed"}], "GHEC_fault20181003104825090": [{"href": "4_0.png", "title": ""}], "PALUEAST_Grading_CopernicusRapidMapping20181001180247354": [{"href": "7_0.png", "title": "Damaged"}, {"href": "7_1.png", "title": "Destroyed"}], "geojson_gdacs_geojson_gdacs_Point20181002071122802": [{"href": "9_0.png", "title": ""}]};
 var view = new ol.View({ maxZoom: 32, minZoom: 1, projection: 'EPSG:3857'});
-var originalExtent = [13330022.421438, -45117.232689, 13336416.821749, -38884.715931];
+var originalExtent = [13339265.669067, -94493.150682, 13351010.942809, -83733.765748];
 
 var map = new ol.Map({
   layers: layersList,
@@ -1158,7 +1146,8 @@ var BasicApp = React.createClass({
                                 exclude: true},
 {text: 'Table', icon: 'list-alt', onClick: this._toggleTable.bind(this)},
 {text: 'Query', icon: 'filter', onClick: this._toggleQuery.bind(this)},
-{jsx: React.createElement(Measure, {toggleGroup:'navigation', map:map})},
+{jsx: React.createElement(AddLayer, {map:map})},
+{text: 'Help', icon: 'help', onClick: function(){window.open('help/help.html','_blank')}},
 {jsx: React.createElement(DD.Dropdown, {title:"Links"},
                                         
                                     )},
@@ -1172,6 +1161,7 @@ var BasicApp = React.createClass({
                               onClick: this._navigationFunc.bind(this)
                             },
 {jsx: React.createElement(QGISPrint, {map:map, layouts:printLayouts, thumbnailPath: './resources/print/',})},
+{jsx: React.createElement(Measure, {toggleGroup:'navigation', map:map})},
 {exclude: true, jsx: React.createElement("a", {className:"navbar-brand", href:"#"}, "My Web App")}];
     return React.createElement("article", null,
       React.createElement(Toolbar, {options: options}
@@ -1189,7 +1179,7 @@ React.createElement("div", {id: 'query-panel', className:'query-panel'},
                                       React.createElement(Edit, {map: map, toggleGroup:'navigation'})
                                     ),
 React.createElement("div", {id: 'popup', className: 'ol-popup'},
-                                    React.createElement(InfoPopup, {map: map, hover: true})
+                                    React.createElement(InfoPopup, {map: map, hover: false})
                                   )
         )
         ,
@@ -1201,7 +1191,6 @@ React.createElement("div",{id: "layerlist"},
                                         showGroupContent:true, showZoomTo:false, allowReordering:false,
                                         allowFiltering:true, tipLabel:'layers', expandOnHover:true,
                                         downloadFormat:'GeoJSON', map:map})),
-React.createElement(LoadingPanel, {map:map}),
 React.createElement("div", {id:'geolocation-control', className:'ol-unselectable ol-control'},
                                     React.createElement(Geolocation, {map:map})
                                   ),
